@@ -14,7 +14,7 @@ The website for client to they can know more about &lt;[Passerelles numériques 
 
 ## Mentor
 
-- Cu Nguyen &lt;[cunguyen.dev@gmail.com](cnguyen.dev@gmail.com)&gt;
+- Cu Nguyen &lt;[cunguyen.dev@gmail.com](cunguyen.dev@gmail.com)&gt;
 - Vu Nguyen &lt;[nguyendaivu73.qb@gmail.com](nguyendaivu73.qb@gmail.com)&gt;
 
 ## Requirements
