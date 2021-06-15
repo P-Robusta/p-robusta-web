@@ -1,8 +1,11 @@
 # p-robusta-web
+
 The landing page for &lt;[Passerelles numériques Vietnam](https://www.passerellesnumeriques.org/)&gt;
 The website for client to they can know more about &lt;[Passerelles numériques Vietnam](https://www.passerellesnumeriques.org/)&gt;
 
 ## Developers
+
+- Cu Nguyen &lt;[cunguyen.dev@gmail.com](cunguyen.dev@gmail.com)&gt;
 
 - Nguyen Ngoc Huy &lt;[huy.nguyen22@student.passerellesnumeriques.org](huy.nguyen22@student.passerellesnumeriques.org)&gt;
 
@@ -12,16 +15,10 @@ The website for client to they can know more about &lt;[Passerelles numériques 
 
 - Nguyen Thi Diem &lt;[diem.nguyen22@student.passerellesnumeriques.org](diem.nguyen22@student.passerellesnumeriques.org)&gt;
 
-## Mentor
-
-- Cu Nguyen &lt;[cunguyen.dev@gmail.com](cunguyen.dev@gmail.com)&gt;
-- Vu Nguyen &lt;[nguyendaivu73.qb@gmail.com](nguyendaivu73.qb@gmail.com)&gt;
-
 ## Requirements
 
 - [Node](https://nodejs.org/en/) &gt;=14.6.0 / [npm](https://www.npmjs.com/) &gt;=5.3.0
   - Recommend installing with [nvm](https://github.com/creationix/nvm)
-- [Parcel](https://parceljs.org/) &gt;=1.12.4
 - [Yarn](https://classic.yarnpkg.com) &gt;=1.22.4
 
 ## Tech stacks
@@ -29,7 +26,6 @@ The website for client to they can know more about &lt;[Passerelles numériques 
 - HTML/CSS/JavaScript
 - CSS/SCSS
 - ReactJS
-- Redux
 
 ## Getting Started
 
