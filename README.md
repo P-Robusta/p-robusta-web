@@ -1,12 +1,23 @@
 # Landing page with ReactJS
 
-A landing page build from ReactJS
+A landing page build from ReactJS for PN
 
 Deploy to: (Updating...)
 
+The landing page for &lt;[Passerelles numériques Vietnam](https://www.passerellesnumeriques.org/)&gt;
+The website for client to they can know more about &lt;[Passerelles numériques Vietnam](https://www.passerellesnumeriques.org/)&gt;
+
 ## Developers
 
-- Cu Nguyen &lt;[cunguyen.dev@gmail.com](cnguyen.dev@gmail.com)&gt;
+- Cu Nguyen &lt;[cunguyen.dev@gmail.com](cunguyen.dev@gmail.com)&gt;
+
+- Nguyen Ngoc Huy &lt;[huy.nguyen22@student.passerellesnumeriques.org](huy.nguyen22@student.passerellesnumeriques.org)&gt;
+
+- Pham Anh Tuan &lt;[tuan.pham22@student.passerellesnumeriques.org](tuan.pham22@student.passerellesnumeriques.org)&gt;
+
+- Le Thi Hong Hanh &lt;[hanh.le22@student.passerellesnumeriques.org](hanh.le22@student.passerellesnumeriques.org)&gt;
+
+- Nguyen Thi Diem &lt;[diem.nguyen22@student.passerellesnumeriques.org](diem.nguyen22@student.passerellesnumeriques.org)&gt;
 
 ## Requirements
 
