@@ -1,5 +1,6 @@
+// Dev dependencies
 import { useState, useEffect } from 'react'
-
+// Components
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
@@ -9,7 +10,11 @@ import { Gallery } from './components/gallery'
 import { Testimonials } from './components/testimonials'
 import { Team } from './components/Team'
 import { Contact } from './components/contact'
+
+import CallAPI from './api/callAPI'
+// fake data
 import appData from './data/data.json'
+// convinient module
 import SmoothScroll from 'smooth-scroll'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -39,6 +44,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      <CallAPI/>
     </div>
   )
 }
