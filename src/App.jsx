@@ -1,5 +1,6 @@
 // Dev dependencies
 import { useState, useEffect } from 'react';
+import axios from 'axios';
 // Components
 import { Navigation } from './components/Navigation/navigation';
 import { Header } from './components/Header/header';
@@ -12,6 +13,7 @@ import { Team } from './components/Staff/Team';
 import { Contact } from './components/Contact/contact';
 
 import CallAPI from './helper/callAPI';
+
 // fake data
 import appData from './data/data.json';
 // convinient module

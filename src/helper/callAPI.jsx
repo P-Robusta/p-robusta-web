@@ -1,5 +1,5 @@
 import axios from 'axios';
-const CallAPI = async (endpoit) => {
+const CallAPI = async (endpoint) => {
   // ----------------Set URL----------------
   // const api_url = process.env.REACT_APP_API_URL
   const api_url = 'http://localhost:8000/api/client';
@@ -65,7 +65,7 @@ const CallAPI = async (endpoit) => {
   };
   await checkToken();
   //----------------call api----------------
-  return axios.get(`${api_url}/${endpoit}`, {
+  return axios.get(`${api_url}/${endpoint}`, {
     headers: {
       Authorization: `${inforToken.token_type} ${inforToken.access_token}`,
       Accept: 'application/json',
