@@ -1,10 +1,25 @@
 {
     "Header": {
-        "title": "Code Hub",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "IT RAISE IT",
+        "paragraph": "With only a contribution of 50k, you can together with more than 1000 other IT engineers build an IT feed IT community to support 130 poor young people to pursue IT studies in 6 months, equivalent to with 70 million VND/month."
     },
     "About": {
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "ITRaiseIT": {
+        "paragraph": "Fundraising VND 70 million per month from the benevolent IT community to cover the costs of IT studies and accommodation for PNV students in the next 7 months (Total: VND 500 million until the end of 2021).",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -80,6 +95,38 @@
             "img": "img/testimonials/06.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Johnathan Doe"
+        }
+    ],
+    "StudentFeedbacks": [
+        {
+            "img": "img/studentfeedbacks/01.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/02.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/03.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/04.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/05.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/01.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
         }
     ],
     "Team": [

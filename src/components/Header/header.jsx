@@ -1,3 +1,4 @@
+
 export const Header = (props) => {
   return (
     <header id="header">
@@ -12,11 +13,13 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href="#features"
+                  href="/#itraiseit"
                   className="btn btn-custom btn-lg page-scroll"
                 >
+
                   Learn More
                 </a>
+                {/* <Link to="/itraiseit" className="btn btn-custom btn-lg page-scroll">Learn mores</Link> */}
               </div>
             </div>
           </div>

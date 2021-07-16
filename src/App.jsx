@@ -1,16 +1,21 @@
 // Dev dependencies
 import { useState, useEffect } from 'react';
-import axios from 'axios';
+//import axios from 'axios';
 // Components
 import { Navigation } from './components/Navigation/navigation';
 import { Header } from './components/Header/header';
 import { Features } from './components/features';
 import { About } from './components/About/about';
 import { Services } from './components/services';
-import { Gallery } from './components/gallery';
+import { ProductCreation } from './components/Student/ProductCreation/productCreation';
+import { StudentFeedbacks } from './components/Student/StudentFeedback/studentFeedback';
 import { Testimonials } from './components/Testimonials/testimonials';
 import { Team } from './components/Staff/Team';
 import { Contact } from './components/Contact/contact';
+
+
+import ITRaiseIT from './components/ITraiseIT/it_raise_it';
+import News1 from './components/News/news1';
 
 import CallAPI from './helper/callAPI';
 
@@ -18,6 +23,7 @@ import CallAPI from './helper/callAPI';
 import appData from './data/data.json';
 // convinient module
 import SmoothScroll from 'smooth-scroll';
+//import { Router, Route } from 'express';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -33,17 +39,25 @@ const App = () => {
    */
   useEffect(() => {
     setLandingPageData(appData);
-    CallAPI('categories').then((res) => console.log(res.data.data));
+    CallAPI('categories').then((res) => console.log(res.data.data)).catch(err => console.error(err));
   }, []);
 
   return (
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      {/* <Router>
+        <Route>
+          <ITRaiseIT />
+        </Route>
+      </Router> */}
+      <ITRaiseIT />
+      <News1 />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery />
+      <StudentFeedbacks data={landingPageData.StudentFeedbacks} />
+      <ProductCreation />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />

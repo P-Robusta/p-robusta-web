@@ -1,16 +1,16 @@
 import axios from 'axios';
 const CallAPI = async (endpoint) => {
   // ----------------Set URL----------------
-  // const api_url = process.env.REACT_APP_API_URL
-  const api_url = 'http://localhost:8000/api/client';
+  const api_url = process.env.REACT_APP_API_URL
+  // const api_url = 'http://localhost:8000/api/client';
 
   let inforToken = JSON.parse(localStorage.getItem('__client_token_pnv__'));
   let expirationDate = Number(localStorage.getItem('__day_get_token_pnv__'));
   // ----------------Get token function----------------
   const getToken = async () => {
     //set base infor
-    // const getTokenUrl = process.env.REACT_APP_API_URL_GET_TOKEN
-    const getTokenUrl = 'http://localhost:8000/oauth/token';
+    const getTokenUrl = process.env.REACT_APP_API_URL_GET_TOKEN
+    // const getTokenUrl = 'http://localhost:8000/oauth/token';
 
     let client_oauth = new URLSearchParams();
     client_oauth.append('client_id', process.env.REACT_APP_CLIENT_ID);
@@ -20,7 +20,6 @@ const CallAPI = async (endpoint) => {
     const configs = {
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
-        Accept: 'application/json, text/plain, */*',
       },
     };
     //call oauth to get access_token
@@ -41,7 +40,7 @@ const CallAPI = async (endpoint) => {
     if (
       inforToken &&
       inforToken.access_token &&
-      expirationDate &&
+      expirationDate && inforToken.token_type &&
       Math.abs((dateNow - expirationDate) / 1000) < inforToken.expires_in
     ) {
       //continue check connet api
@@ -65,12 +64,18 @@ const CallAPI = async (endpoint) => {
   };
   await checkToken();
   //----------------call api----------------
-  return axios.get(`${api_url}/${endpoint}`, {
-    headers: {
-      Authorization: `${inforToken.token_type} ${inforToken.access_token}`,
-      Accept: 'application/json',
-    },
-  });
+
+  if (inforToken) {
+    return axios.get(`${api_url}/${endpoint}`, {
+      headers: {
+        Authorization: `${inforToken.token_type} ${inforToken.access_token}`,
+        Accept: 'application/json',
+      },
+    });
+  } else {
+    console.log('fail');
+  }
+
 };
 
 export default CallAPI;

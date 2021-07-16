@@ -25,6 +25,7 @@ export const Navigation = (props) => {
           style={{ border: 'none' }}
         >
           <ul className="nav navbar-nav navbar-right">
+
             <li>
               <a href="#features" className="page-scroll">
                 Features
