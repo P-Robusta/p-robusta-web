@@ -52,8 +52,15 @@ const CallAPI = async (endpoint) => {
             Accept: 'application/json',
           },
         })
+        .then((res) => {
+          if (res.status === 200) {
+            return true;
+          } else {
+            return false;
+          }
+        })
         .catch(async (error) => {
-          console.error(error);
+          console.log(error);
           if (error.message.indexOf('401') > -1) {
             await getToken();
             window.location.reload();
@@ -61,16 +68,20 @@ const CallAPI = async (endpoint) => {
         });
     } else {
       await getToken();
+      window.location.reload();
     }
   };
-  await checkToken();
   //----------------call api----------------
-  return axios.get(`${api_url}/${endpoint}`, {
-    headers: {
-      Authorization: `${inforToken.token_type} ${inforToken.access_token}`,
-      Accept: 'application/json',
-    },
-  });
+  if (checkToken()) {
+    return axios.get(`${api_url}/${endpoint}`, {
+      headers: {
+        Authorization: `${inforToken.token_type} ${inforToken.access_token}`,
+        Accept: 'application/json',
+      },
+    });
+  } else {
+    getToken();
+  }
 };
 
 export default CallAPI;

@@ -1,6 +1,5 @@
 // Dev dependencies
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 // Components
 import { Navigation } from './components/Navigation/navigation';
 import { Header } from './components/Header/header';
