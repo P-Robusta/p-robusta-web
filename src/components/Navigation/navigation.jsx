@@ -26,38 +26,76 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
+              <a href="#news" className="page-scroll">
+                Tin tức
               </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                About
+                Về chúng tôi
               </a>
             </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                Services
+            <li className="dropdown">
+              <a
+                href="#donate"
+                className="page-scroll dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Tài trợ&amp;Đối tác
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
               </a>
+              <ul
+                id="products-menu"
+                className="dropdown-menu clearfix nav navbar-nav navbar-right"
+                role="menu"
+              >
+                <li>
+                  <a href="#partners" className="page-scroll">
+                    Các đối tác
+                  </a>
+                </li>
+                <li>
+                  <a href="#donate" className="page-scroll">
+                    Tài trợ
+                  </a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
+
+            <li className="dropdown">
+              <a
+                href="#students"
+                className="page-scroll dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Sinh viên<i className="fa fa-caret-down" aria-hidden="true"></i>
               </a>
+              <ul
+                id="products-menu"
+                className="dropdown-menu clearfix nav navbar-nav navbar-right"
+                role="menu"
+              >
+                <li>
+                  <a href="#students" className="page-scroll">
+                    Về các sinh viên
+                  </a>
+                </li>
+                <li>
+                  <a href="#students-products" className="page-scroll">
+                    Thành quả của sinh viên
+                  </a>
+                </li>
+              </ul>
             </li>
+
             <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
+              <a href="#staff" className="page-scroll">
+                Nhân sự
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Liên Hệ
               </a>
             </li>
           </ul>

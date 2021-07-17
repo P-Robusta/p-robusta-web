@@ -18,36 +18,34 @@
             "Lorem ipsum dolor"
         ]
     },
-    "Services": [
+    "Partners": [
         {
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
+            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
+            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
+            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
         },
         {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
+            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
         },
         {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
+            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
         },
         {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
+            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
+        },
+        {
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
+            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
         }
     ],
     "Testimonials": [
@@ -112,26 +110,30 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [
+    "News": [
         {
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Chúng tôi làm gì",
+            "text": "Tìm hiểu thêm về dự án Passerelles numériques",
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/PNC_students_training_2015-88.jpg"
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Chúng tôi là ai",
+            "text": "Cùng gặp gỡ các thành viên của Passerelles numériques",
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/03/who-we-are.jpg"
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "IT nuôi IT",
+            "text": "TẠI SAO LẠI LÀ #ITNUOIIT - CHƯƠNG TRÌNH GÂY ...",
+            "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/123763308_3409862459093213_5117645189510611542_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=W8Xh3MD2gHEAX_GnIGF&_nc_ht=scontent-hkg4-1.xx&oh=3d08d8ca4bf74d7716f7b31c798e0051&oe=60F74B4B"
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-group",
+            "title": "Hoa nở trong bão",
+            "text": "“Mỗi người sinh ra đều có một số mệnh” – Đó là điều mà ...",
+            "image": "https://i.ibb.co/zZXqXGr/Blossom-in-the-storm-1.jpg"
         }
     ]
 }
