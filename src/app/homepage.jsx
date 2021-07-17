@@ -6,9 +6,11 @@ import { Header } from '../components/Header/header';
 import { News } from '../components/News/news';
 import { About } from '../components/About/about';
 import { Partners } from '../components/Partners/partners';
-import { Gallery } from '../components/gallery';
-import { Testimonials } from '../components/Testimonials/testimonials';
-import { Team } from '../components/Staff/Team';
+
+import { ProductCreation } from '../components/Student/ProductCreation/productCreation';
+import { StudentFeedbacks } from '../components/Student/StudentFeedback/studentFeedback';
+
+import { Donate } from '../components/Donate/donate';
 import { Contact } from '../components/Contact/contact';
 // fake data
 import appData from '../data/data.json';
@@ -38,9 +40,9 @@ const Homepage = () => {
       <News data={landingPageData.News} />
       <About data={landingPageData.About} />
       <Partners data={landingPageData.Partners} />
-      <Gallery />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      <Donate />
+      <StudentFeedbacks data={landingPageData.StudentFeedbacks} />
+      <ProductCreation />
       <Contact data={landingPageData.Contact} />
     </div>
   );

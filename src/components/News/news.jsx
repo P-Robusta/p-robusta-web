@@ -8,6 +8,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+import { NavLink } from 'react-router-dom';
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -42,7 +44,7 @@ export const News = (props) => {
                           {d.title}
                         </Typography>
                         <Typography
-                          variant="body"
+                          variant="h5"
                           color="textSecondary"
                           component="p"
                         >
@@ -51,9 +53,19 @@ export const News = (props) => {
                       </CardContent>
                     </CardActionArea>
                     <CardActions>
-                      <Button size="small" color="primary">
-                        Xem thêm
-                      </Button>
+                      <NavLink to={d.link}>
+                        <Button
+                          size="small"
+                          style={{
+                            fontSize: '13px',
+                            fontWeight: 700,
+                            background: '#ff9933',
+                            color: '#fff',
+                          }}
+                        >
+                          Xem thêm
+                        </Button>
+                      </NavLink>
                     </CardActions>
                   </Card>
                 </div>

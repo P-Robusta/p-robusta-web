@@ -9,40 +9,122 @@ export const About = (props) => {
               height="315"
               src="https://www.youtube.com/embed/-PSpCJg7KsI"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
+            {/* <div className="list-style"> */}
+            {/* <div className="col-lg-6 col-sm-6 col-xs-12"> */}
+            {/* <div className="col-xs-12 col-md-6"> */}
+            <br></br>
+            <div className="list-style">
+              <h3>Hoạt động</h3>
+              <h3>Quy trình tuyển sinh công bằng và nghiêm ngặt</h3>
+
+              <ul>
+                {props.data
+                  ? props.data.joinUs.map((d, i) => (
+                      <li key={`${d}-${i}`}>{d}</li>
+                    ))
+                  : 'loading'}
+              </ul>
+            </div>
+            <br></br>
+            <div className="list-style">
+              <h3>Chương trình đào tạo chuyên sâu</h3>
+
+              <ul>
+                {props.data
+                  ? props.data.intensiveTraining.map((d, i) => (
+                      <li key={`${d}-${i}`}>{d}</li>
+                    ))
+                  : 'loading'}
+              </ul>
+            </div>
+            <br></br>
+            <div className="about-text">
+              <h3>Chương trình đào tạo và thực hành thiết thức</h3>
+
+              <p>
+                {props.data ? props.data.trainingAndPractice : 'loading...'}
+              </p>
+            </div>
+            <br />
+            <div className="about-text">
+              <h3>Hỗ trợ tìm kiếm việc làm</h3>
+
+              <p>{props.data ? props.data.jobSearchSupport : 'loading...'}</p>
+              <div
+                className="fb-page"
+                data-href="https://www.facebook.com/passerelles.numeriques/?ref=page_internal"
+                data-tabs="timeline"
+                data-width={500}
+                data-height={300}
+                data-small-header="true"
+                data-adapt-container-width="true"
+                data-hide-cover="true"
+                data-show-facepile="true"
+              >
+                <blockquote
+                  cite="https://www.facebook.com/passerelles.numeriques/?ref=page_internal"
+                  className="fb-xfbml-parse-ignore"
+                >
+                  <a href="https://www.facebook.com/passerelles.numeriques/?ref=page_internal">
+                    Passerelles numériques
+                  </a>
+                </blockquote>
+              </div>
+            </div>
           </div>
+
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>Về chúng tôi</h2>
+              <h2>Chúng tôi là ai?</h2>
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
-              <h3>Chúng tôi là ai?</h3>
+              <h3>Những dấu mốc phát triển</h3>
               <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : 'loading'}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : 'loading'}
-                  </ul>
-                </div>
+                {/* <div className="col-lg-6 col-sm-6 col-xs-12"> */}
+                {/* <div className="col-xs-12 col-md-6"> */}
+                <ul>
+                  {props.data
+                    ? props.data.Why.map((d, i) => (
+                        <li key={`${d}-${i}`}>{d}</li>
+                      ))
+                    : 'loading'}
+                </ul>
+              </div>
+              <div className="list-style">
+                <h3>Mục tiêu</h3>
+                <ul>
+                  {props.data
+                    ? props.data.goal.map((d, i) => (
+                        <li key={`${d}-${i}`}>{d}</li>
+                      ))
+                    : 'loading'}
+                </ul>
+              </div>
+              <div className="list-style">
+                <h3>Giáo dục và phát triển nhân cách</h3>
+
+                <ul>
+                  {props.data
+                    ? props.data.education.map((d, i) => (
+                        <li key={`${d}-${i}`}>{d}</li>
+                      ))
+                    : 'loading'}
+                </ul>
+                <ul>
+                  {props.data
+                    ? props.data.educationAndPersonalityDevelopment.map(
+                        (d, i) => <li key={`${d}-${i}`}>{d}</li>
+                      )
+                    : 'loading'}
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    // </div>
   );
 };

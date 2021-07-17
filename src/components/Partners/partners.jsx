@@ -10,7 +10,13 @@ export const Partners = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={i} className="col-md-4">
-                  <img src={d.image} alt="Hinh anh" />
+                  <img
+                    src={d.image}
+                    alt="Hinh anh"
+                    width="400"
+                    height="284"
+                    style={{ padding: '10px' }}
+                  />
                   <div className="partner-desc">
                     <p>{d.text}</p>
                   </div>

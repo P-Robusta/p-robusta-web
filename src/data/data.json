@@ -3,81 +3,22 @@
         "title": "Code Hub",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
     },
-    "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
-    },
     "Partners": [
         {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
-            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/logo_accenture-400x284.png",
+            "text": "After a large contribution to our program in Cambodia,  is, since 2010, the main partner of the development of PN Philippines, with a financial contribution over four years. Moreover, employees of Accenture Cebu are in charge of a part of the training (Business Life Training), and consultants and senior executives from France are also involved during short missions on the field. In April 2013, Accenture France implemented the “Payroll Giving” for its employees, in favor of charities, including Passerelles numériques."
         },
         {
             "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
             "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
         },
         {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
-            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2017/10/comgestfoundation-400x284.png",
+            "text": "foundation supports financially the scholarship of students of our Cambodian centre."
         },
         {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
-            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
-        },
-        {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
-            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
-        },
-        {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
-            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
-        },
-        {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
-            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
-        }
-    ],
-    "Testimonials": [
-        {
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/06/Econocom_logo_big-400x284.png",
+            "text": " financial support helps fund the training, education and guidance to employment of 20 students during one year in our Centre of Cebu in the Philippines."
         }
     ],
     "Team": [
@@ -102,38 +43,169 @@
             "job": "Project Manager"
         }
     ],
+    "About": {
+        "paragraph": "Passerelles numériques (PN) là một tổ chức phi chính phủ của Pháp, được thành lập năm 2005 và đang hoạt động tại 3 quốc gia châu Á: Campuchia, Philippines và Việt Nam.Sứ mệnh của chúng tôi là tạo điều kiện cho các thanh niên có hoàn cảnh khó khăn được học hành, được đào tạo chuyên môn và đào tạo kĩ năng trong lĩnh vực kĩ thuật số bằng cách phát huy tối đa tiềm năng cũng như sức mạnh ý chí của các em. Chúng tôi cũng nổ lực giúp các em có việc làm nhằm giúp các em và gia đình thoát khỏi đói nghèo một cách bền vững,góp phần vào sự phát triển kinh tế xã hội chung của đất nước.Các đối tượng PN hỗ trợ là các thanh thiếu niên có hoàn cảnh rất khó khăn, rất cần sự giúp đỡ Tùy theo đặc thù mỗi nước mà PN có trung tâm đào tạo đang hoạt động, các tiêu chí tuyển sinh sẽ được điều chỉnh cho phù hợp.",
+        "Why": [
+            "2020:Passerelles numériques kỉ niệm 10 năm khởi động dự án PN Việt Nam tại Đà Nẵng",
+            "2016: Sự ra đời của tổ chức pháp nhân PN SEA (Đông Nam Á) ở Singapore với mục tiêu gây quỹ và nâng cao nhận thức về những hành động của tổ chức Passerelles numériques.",
+            "2015: Passerelles numériques kỉ niệm 10 năm thành lập! Kể từ năm 2010, PN đã đào tạo miễn phí chương trình Công nghệ thông tin cho hơn 1500 sinh viên.",
+            "2013 : Thành lập Passerelles numériques Hồng Kông, quỹ từ thiện do các tình nguyện viên sáng lập với mong muốn quảng bá PN và gây quỹ ủng hộ cho dự án.",
+            "2012: Lễ tốt nghiệp niên khóa đầu tiên của PN Philippines (24 sinh viên) và PN Việt Nam (27 sinh viên)",
+            "2010: Khởi động dự án PN Việt Nam tại Đà Nẵng với 30 em sinh viên",
+            "2009: Khởi động dự án PN Philippines tại Cebu với 25 em sinh viên.",
+            "2007: Lễ tốt nghiệp của 20 sinh viên thuộc niên khóa đầu tiên của PN Campuchia (chuyên ngành Quản trị mạng).",
+            "2006: Thành lập tổ chức phi chính phủ của Pháp mang tên Passerelles numériques.",
+            "2005: Thành lập trung tâm đào tạo đầu tiên tại Phnom Penh, Campuchia với 25 sinh viên."
+        ],
+        "goal": [
+            "Mục tiêu PN là giúp đỡ 90% sinh viên theo học có thể thoát nghèo một cách bền vững, trở thành những nhân viên chuyên nghiệp, là những công dân tốt của quốc gia và tận dụng các cơ hội để mở ra cuộc sống mới cho tương lai của bản thân và gia đình.",
+            "PN còn mong muốn hạn chế những bất bình đẳng giới tính. Chính vì vậy, ở mỗi trung tâm của PN, chúng tôi luôn nỗ lực để đảm bảo ít nhất 50% ( hoặc tối đa là ⅔) sinh viên nhập học là nữ."
+        ],
+        "joinUs": [
+            "Ngày hội thông tin: giới thiệu dự án PN, chương trình học bổng chuyên ngành Công nghệ thông tin và những cơ hội của ngành.",
+            "Bài thi viết: bao gồm Logic, Toán và Tiếng Anh nhằm đánh giá khả năng của sinh viên.",
+            "Phỏng vấn cá nhân: đánh giá động lực, độ trưởng thành và tư duy của sinh viên.",
+            "Điều tra gia cảnh: khảo sát hoàn cảnh gia đình để lựa chọn những trường hợp có hoàn cảnh khó khăn nhất."
+        ],
+        "intensiveTraining": [
+            "Kỹ năng tiếng Anh: Giao tiếp cơ bản, tiếng Anh chuyên ngành và Toeic.",
+            "Kỹ năng mềm: tập trung phát triển những kĩ năng làm việc trong môi trường chuyên nghiệp thông qua hiểu biết chung về xã hội, kinh tế và chuẩn mực ứng xử.",
+            "Kỹ năng mềm chuyên sâu: phát triển những khả năng cao hơn như suy nghĩ cởi mở, tự chủ, linh động và sáng tạo."
+        ],
+        "trainingAndPractice": "Với mong muốn đào tạo cho các sinh viên những kĩ năng phù hợp với nhu cầu của doanh nghiệp, chương trình giảng dạy tại Passerelles numériques luôn được cập nhật để đáp ứng những nhu cầu từ phía doanh nghiệp và thị trường: có tính ứng dụng cao, chuyên sâu và được chứng nhận.",
+        "educationAndPersonalityDevelopment": [
+            "Phát triển nhận thức và nhân cách: trao đổi và tư vấn.",
+            "Chi phí đào tạo.",
+            "Chi phí sinh hoạt: chi phí nhà ở và trang thiết bị, chi phí ăn uống, phương tiện đi lại, chăm sóc sức khỏe và bảo hiểm y tế.",
+            "Các em sẽ được nhận trợ cấp hàng tháng và tự học cách quản lý chi tiêu. Gia đình hỗ trợ một phần nhỏ trong chi phí mỗi tháng cho chi tiêu cá nhân của các em."
+        ],
+        "education": [
+            "Để chuẩn bị cho sinh viên trở thành công dân trẻ độc lập và tự chủ, PN đã xây dựng một chương trình ngoại khóa phát triển cá nhân xoay quanh ba giá trị cốt yếu của PN: tin tưởng, trách nhiệm, đoàn kết. Khóa học này giúp cho sinh viên tiếp thu vững chắc các kiến thức chung và hiểu hơn về thế giới xung quanh.",
+            "Chúng tôi còn giúp các em phát triển ý thức chung về sức khỏe và môi trường thông qua các hoạt động phòng chống và tự bảo vệ. Với mục tiêu giúp sinh viên hoàn toàn tập trung vào việc học, PN trang trải tất cả các chi phí bao gồm:"
+        ],
+        "jobSearchSupport": "Được sự hỗ trợ của của Bộ phận Đối ngoại, Hội cựu sinh viên và các đối tác của PN, sinh viên luôn được hướng dẫn và theo sát trong các kì thực tập cũng như trong quá trình tìm kiếm việc làm sau khi tốt nghiệp ( tham gia các hội thảo về cách viết sơ yếu lý lịch và đơn sinh việc, tư vấn cá nhân, định hướng nghề nghiệp, các hội thảo về kỹ năng tham gia phỏng vấn."
+    },
+    "Testimonials": [
+        {
+            "img": "img/staff/oanh.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "Oanh Huynh",
+            "position": "Trưởng phòng đối ngoại"
+        },
+        {
+            "img": "img/staff/nhai.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "Hồ Thị Ngọc Nhài",
+            "position": "Nhân viên giáo dục tại PN Viet nam"
+        },
+        {
+            "img": "img/staff/diep.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "TRẦN Thị Diệp",
+            "position": "Nhân viên tuyến sinh tại , PN Viet nam"
+        },
+        {
+            "img": "img/staff/cu.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "Nguyễn Văn Cư",
+            "position": "Cựu sinh viên tại PN Viet Nam"
+        },
+        {
+            "img": "img/staff/chi20.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "TRẦN Thị Diệp",
+            "position": "Cựu sinh viên tại PN Viet Nam"
+        },
+        {
+            "img": "img/staff/cuong.jpg",
+            "text": "\"PN Việt Nam đến như một phép màu. Chúng em là khóa đầu tiên của chương trình đào tạo mới kéo dài 3 năm. Chúng em đã có nhiều thời gian hơn để tìm hiểu các công nghệ tiên tiến mà các công ty cần, cũng như cải thiện khả năng tiếng Anh và kĩ năng mềm của mình – những hành trang cần thiết trên con đường sự nghiệp. Chúng em được học cách trở thành một thành viên có giá trị trong nhóm, một nhà lãnh đạo tài tình, hoặc thậm chí là một doanh nhân thành công. Và hơn hết, học phần Chuyên môn hóa và kỳ thực tập cuối cùng chính là cơ hội để em tăng khả năng được tuyển dụng của mình một cách đáng kinh ngạc. Bây giờ, em rất tự hào khi nói rằng em đã có thể chăm sóc cho bản thân và gia đình. Em cảm thấy có thêm động lực để cống hiến cho cộng đồng bằng cách tham gia Hội Cựu sinh viên PN Việt Nam và các hoạt động xã hội khác.\"",
+            "name": "Nguyễn Hữu Cường",
+            "position": "Cựu sinh viên tại PN Viet Nam"
+        }
+    ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
+        "address": "99 Tô Hiến Thành, Phước Mỹ, Sơn Trà, TP Đà Nẵng ",
+        "phone": "+84 236 3888 503",
+        "email": "info.vietnam@passerellesnumeriques.org",
+        "facebook": "https://www.facebook.com/pages/Passerelles%20Num%C3%A9riques%20Vietnam/555945917794307/",
         "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "https://www.youtube.com/watch?v=gkLdO8I76LI"
     },
     "News": [
         {
             "icon": "fa fa-comments-o",
             "title": "Chúng tôi làm gì",
             "text": "Tìm hiểu thêm về dự án Passerelles numériques",
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/PNC_students_training_2015-88.jpg"
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/PNC_students_training_2015-88.jpg",
+            "link": "/it-raise-it"
         },
         {
             "icon": "fa fa-bullhorn",
             "title": "Chúng tôi là ai",
             "text": "Cùng gặp gỡ các thành viên của Passerelles numériques",
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/03/who-we-are.jpg"
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/03/who-we-are.jpg",
+            "link": "/it-raise-it"
         },
         {
             "icon": "fa fa-group",
             "title": "IT nuôi IT",
             "text": "TẠI SAO LẠI LÀ #ITNUOIIT - CHƯƠNG TRÌNH GÂY ...",
-            "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/123763308_3409862459093213_5117645189510611542_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=W8Xh3MD2gHEAX_GnIGF&_nc_ht=scontent-hkg4-1.xx&oh=3d08d8ca4bf74d7716f7b31c798e0051&oe=60F74B4B"
+            "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/123763308_3409862459093213_5117645189510611542_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=W8Xh3MD2gHEAX_GnIGF&_nc_ht=scontent-hkg4-1.xx&oh=3d08d8ca4bf74d7716f7b31c798e0051&oe=60F74B4B",
+            "link": "/it-raise-it"
         },
         {
             "icon": "fa fa-group",
             "title": "Hoa nở trong bão",
             "text": "“Mỗi người sinh ra đều có một số mệnh” – Đó là điều mà ...",
-            "image": "https://i.ibb.co/zZXqXGr/Blossom-in-the-storm-1.jpg"
+            "image": "https://i.ibb.co/zZXqXGr/Blossom-in-the-storm-1.jpg",
+            "link": "/it-raise-it"
+        }
+    ],
+    "ITRaiseIT": {
+        "paragraph": "Fundraising VND 70 million per month from the benevolent IT community to cover the costs of IT studies and accommodation for PNV students in the next 7 months (Total: VND 500 million until the end of 2021).",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "StudentFeedbacks": [
+        {
+            "img": "img/studentfeedbacks/01.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/02.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/03.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/04.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/05.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/01.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
         }
     ]
 }

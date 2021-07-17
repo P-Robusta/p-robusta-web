@@ -64,7 +64,7 @@ export const Navigation = (props) => {
 
             <li className="dropdown">
               <a
-                href="#students"
+                href="#students-menu"
                 className="page-scroll dropdown-toggle"
                 data-toggle="dropdown"
               >
