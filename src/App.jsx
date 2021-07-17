@@ -16,6 +16,7 @@ import { Contact } from './components/Contact/contact';
 
 import ITRaiseIT from './components/ITraiseIT/it_raise_it';
 import News1 from './components/News/news1';
+import News2 from './components/News/news2'
 
 import CallAPI from './helper/callAPI';
 
@@ -53,6 +54,7 @@ const App = () => {
       </Router> */}
       <ITRaiseIT />
       <News1 />
+      <News2 />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
