@@ -143,7 +143,7 @@ export const Contact = (props) => {
               <p>
                 <iframe
                   title="Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7668.419242364141!2d108.24203737454391!3d16.054608455559737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421836ed15dfc9%3A0x99c3cc369a33576c!2sPasserelles%20num%C3%A9riques%20Vietnam!5e0!3m2!1sen!2s!4v1626505147663!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.110435404449!2d108.2414633152852!3d16.059758038886798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421836ed15dfc9%3A0x99c3cc369a33576c!2sPasserelles%20num%C3%A9riques%20Vietnam!5e0!3m2!1svi!2s!4v1626596418915!5m2!1svi!2s"
                   width="300"
                   height="200"
                   style={{ border: '0' }}
@@ -205,7 +205,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2021 Passerelles numériques Vietnam
+            &copy; {new Date().getFullYear()} Passerelles numériques Vietnam
             {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
             </a> */}
