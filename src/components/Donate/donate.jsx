@@ -23,101 +23,106 @@ const useStyles = makeStyles((theme) => ({
 export const Donate = () => {
   const classes = useStyles();
   return (
-    <div className="container">
-      <div className={classes.root}>
-        <Grid container spacing={1}>
-          <Grid item xs={4}>
-            <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Tài trợ hàng tháng
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions className="text-center">
-                <Button
-                  size="large"
-                  variant="contained"
-                  style={{
-                    background: '#22bbea',
-                    fontSize: '13px',
-                    fontWeight: '900',
-                    color: '#fff',
-                  }}
-                >
-                  Tài trợ ngay
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
+    <div id="donate" className="text-center">
+      <div className="container">
+        <div className="col-md-10 col-md-offset-1 section-title">
+          <h2>Tài trợ</h2>
+        </div>
+        <div className={classes.root}>
+          <Grid container spacing={1}>
+            <Grid item xs={4}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
+                    title="Contemplative Reptile"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Tài trợ hàng tháng
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions className="text-center">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    style={{
+                      background: '#22bbea',
+                      fontSize: '13px',
+                      fontWeight: '900',
+                      color: '#fff',
+                    }}
+                  >
+                    Tài trợ ngay
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
 
-          <Grid item xs={4}>
-            <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Tài trợ
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions className="text-center">
-                <Button
-                  size="large"
-                  variant="contained"
-                  style={{
-                    background: '#22bbea',
-                    fontSize: '13px',
-                    fontWeight: '900',
-                    color: '#fff',
-                  }}
-                >
-                  Tài trợ ngay
-                </Button>
-              </CardActions>
-            </Card>
+            <Grid item xs={4}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
+                    title="Contemplative Reptile"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Tài trợ
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions className="text-center">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    style={{
+                      background: '#22bbea',
+                      fontSize: '13px',
+                      fontWeight: '900',
+                      color: '#fff',
+                    }}
+                  >
+                    Tài trợ ngay
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+            <Grid item xs={4}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
+                    title="Contemplative Reptile"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Tài trợ bằng vật phẩm
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions className="text-center">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    style={{
+                      background: '#22bbea',
+                      fontSize: '13px',
+                      fontWeight: '900',
+                      color: '#fff',
+                    }}
+                  >
+                    Tài trợ ngay
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
           </Grid>
-          <Grid item xs={4}>
-            <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Tài trợ bằng vật phẩm
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions className="text-center">
-                <Button
-                  size="large"
-                  variant="contained"
-                  style={{
-                    background: '#22bbea',
-                    fontSize: '13px',
-                    fontWeight: '900',
-                    color: '#fff',
-                  }}
-                >
-                  Tài trợ ngay
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-        </Grid>
+        </div>
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ export const About = (props) => {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
+              style={{ maxWidth: '100%' }}
             ></iframe>
             {/* <div className="list-style"> */}
             {/* <div className="col-lg-6 col-sm-6 col-xs-12"> */}

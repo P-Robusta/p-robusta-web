@@ -37,7 +37,7 @@ export const Navigation = (props) => {
             </li>
             <li className="dropdown">
               <a
-                href="#donate"
+                href="#donate-and-partners"
                 className="page-scroll dropdown-toggle"
                 data-toggle="dropdown"
               >
@@ -45,7 +45,7 @@ export const Navigation = (props) => {
                 <i className="fa fa-caret-down" aria-hidden="true"></i>
               </a>
               <ul
-                id="products-menu"
+                id="donate-and-partners-menu"
                 className="dropdown-menu clearfix nav navbar-nav navbar-right"
                 role="menu"
               >
@@ -62,9 +62,30 @@ export const Navigation = (props) => {
               </ul>
             </li>
             <li>
-              <a href="#staff" className="page-scroll">
-                Nhân sự
+              <a
+                href="#staff-and-join-us"
+                className="page-scroll dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Nhân sự &nbsp;
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
               </a>
+              <ul
+                id="staff-and-join-us-menu"
+                className="dropdown-menu clearfix nav navbar-nav navbar-right"
+                role="menu"
+              >
+                <li>
+                  <a href="#staff" className="page-scroll">
+                    Nhân sự
+                  </a>
+                </li>
+                <li>
+                  <a href="#join-us" className="page-scroll">
+                    Tuyển dụng
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="#contact" className="page-scroll">

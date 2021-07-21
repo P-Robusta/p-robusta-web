@@ -613,3 +613,9 @@ label {
     margin: 50px 0;
   }
 }
+
+/* Donate Section */
+
+#donate .section-title {
+  padding-top: 70px;
+}
