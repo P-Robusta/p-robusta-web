@@ -1,19 +1,16 @@
 // Dev dependencies
 import { useState, useEffect } from 'react';
 // Components
-import { Navigation } from '../components/Navigation/navigation';
-import { Header } from '../components/Header/header';
-import { News } from '../components/News/news';
-import { About } from '../components/About/about';
-import { Partners } from '../components/Partners/partners';
+import { Navigation } from '../../components/Navigation/navigation';
+import { Header } from '../../components/Header/header';
+import { News } from '../../components/News/news';
+import { About } from '../../components/About/about';
+import { Partners } from '../../components/Partners/partners';
 
-import { ProductCreation } from '../components/Student/ProductCreation/productCreation';
-import { StudentFeedbacks } from '../components/Student/StudentFeedback/studentFeedback';
-
-import { Donate } from '../components/Donate/donate';
-import { Contact } from '../components/Contact/contact';
+import { Donate } from '../../components/Donate/donate';
+import { Contact } from '../../components/Contact/contact';
 // fake data
-import appData from '../data/data.json';
+import appData from '../../data/data.json';
 // convinient module
 import SmoothScroll from 'smooth-scroll';
 
@@ -41,8 +38,6 @@ const Homepage = () => {
       <About data={landingPageData.About} />
       <Partners data={landingPageData.Partners} />
       <Donate />
-      <StudentFeedbacks data={landingPageData.StudentFeedbacks} />
-      <ProductCreation />
       <Contact data={landingPageData.Contact} />
     </div>
   );

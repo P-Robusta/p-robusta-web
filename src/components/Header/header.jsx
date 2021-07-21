@@ -1,5 +1,20 @@
+import { useEffect, useState } from 'react';
 import Item from './item';
+import NumberOverview from './number_overview';
+import CallAPI from '../../helper/callAPI';
+
 export const Header = (props) => {
+  const [numbers, setNumbers] = useState({});
+
+  useEffect(() => {
+    CallAPI('number_overviews')
+      .then((res) => {
+        const { data } = res.data;
+        setNumbers(data);
+      })
+      .catch((error) => console.error(error));
+  }, []);
+
   return (
     <header id="header">
       <div id="headerCarousel" className="carousel slide" data-ride="carousel">
@@ -60,6 +75,10 @@ export const Header = (props) => {
         >
           <span className="sr-only">Next</span>
         </a>
+      </div>
+      <br />
+      <div>
+        <NumberOverview numbers={numbers} />
       </div>
     </header>
   );

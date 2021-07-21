@@ -21,7 +21,6 @@ const useStyles = makeStyles({
 
 export const News = (props) => {
   const classes = useStyles();
-
   return (
     <div id="news" className="text-center">
       <div className="container">

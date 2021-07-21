@@ -41,7 +41,7 @@ export const Navigation = (props) => {
                 className="page-scroll dropdown-toggle"
                 data-toggle="dropdown"
               >
-                Tài trợ&amp;Đối tác
+                Tài trợ &amp; Đối tác &nbsp;
                 <i className="fa fa-caret-down" aria-hidden="true"></i>
               </a>
               <ul
@@ -61,33 +61,6 @@ export const Navigation = (props) => {
                 </li>
               </ul>
             </li>
-
-            <li className="dropdown">
-              <a
-                href="#students-menu"
-                className="page-scroll dropdown-toggle"
-                data-toggle="dropdown"
-              >
-                Sinh viên<i className="fa fa-caret-down" aria-hidden="true"></i>
-              </a>
-              <ul
-                id="products-menu"
-                className="dropdown-menu clearfix nav navbar-nav navbar-right"
-                role="menu"
-              >
-                <li>
-                  <a href="#students" className="page-scroll">
-                    Về các sinh viên
-                  </a>
-                </li>
-                <li>
-                  <a href="#students-products" className="page-scroll">
-                    Thành quả của sinh viên
-                  </a>
-                </li>
-              </ul>
-            </li>
-
             <li>
               <a href="#staff" className="page-scroll">
                 Nhân sự

@@ -1,7 +1,6 @@
-import Homepage from './app/homepage';
+import Homepage from './app/homepage/homepage';
 import NotFound from './components/NotFound';
-import ITRaiseIT from './components/News/Posts/ITraiseIT/it_raise_it';
-
+import ITRaiseIT from './components/Donate/it_raise_it';
 const routes = [
   {
     path: '/',
@@ -9,7 +8,7 @@ const routes = [
     main: () => <Homepage />,
   },
   {
-    path: '/it-raise-it',
+    path: '/donate/alettertoitengineers',
     exact: true,
     main: () => <ITRaiseIT />,
   },

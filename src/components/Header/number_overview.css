@@ -1,0 +1,11 @@
+.number-overview .number {
+  font-size: 90px;
+  font-weight: 500;
+  color: #54acbf;
+}
+
+.number-overview .mean-of-number {
+  color: #000;
+  line-height: 1.7em;
+  font-size: 18px;
+}
