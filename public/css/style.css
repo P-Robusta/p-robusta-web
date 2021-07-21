@@ -619,3 +619,8 @@ label {
 #donate .section-title {
   padding-top: 70px;
 }
+
+#donate .btn-donate-custom {
+  color: #fff;
+  background: #22bbea;
+}

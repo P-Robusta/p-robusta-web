@@ -30,7 +30,7 @@ export const Donate = () => {
         </div>
         <div className={classes.root}>
           <Grid container spacing={1}>
-            <Grid item xs={4}>
+            <Grid item md={4} sm={12}>
               <Card className={classes.root}>
                 <CardActionArea>
                   <CardMedia
@@ -40,16 +40,15 @@ export const Donate = () => {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Tài trợ hàng tháng
+                      Ủng hộ trong chương trình #ITnuoiIT
                     </Typography>
                   </CardContent>
                 </CardActionArea>
-                <CardActions className="text-center">
+                <CardActions>
                   <Button
                     size="large"
                     variant="contained"
                     style={{
-                      background: '#22bbea',
                       fontSize: '13px',
                       fontWeight: '900',
                       color: '#fff',
@@ -61,7 +60,7 @@ export const Donate = () => {
               </Card>
             </Grid>
 
-            <Grid item xs={4}>
+            <Grid item md={4} xs={12}>
               <Card className={classes.root}>
                 <CardActionArea>
                   <CardMedia
@@ -71,7 +70,7 @@ export const Donate = () => {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Tài trợ
+                      Tài trợ cho PNV
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -91,7 +90,7 @@ export const Donate = () => {
                 </CardActions>
               </Card>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item md={4} xs={12}>
               <Card className={classes.root}>
                 <CardActionArea>
                   <CardMedia
@@ -101,7 +100,7 @@ export const Donate = () => {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Tài trợ bằng vật phẩm
+                      Tài trợ bằng các hình thức khác
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -116,7 +115,7 @@ export const Donate = () => {
                       color: '#fff',
                     }}
                   >
-                    Tài trợ ngay
+                    Liên hệ ngay
                   </Button>
                 </CardActions>
               </Card>

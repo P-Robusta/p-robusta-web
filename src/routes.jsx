@@ -1,6 +1,6 @@
 import Homepage from './app/homepage/homepage';
 import NotFound from './components/NotFound';
-import ITRaiseIT from './components/Donate/it_raise_it';
+import ITRaiseIT from './app/IT-Raise-IT/ITRaiseITApp';
 const routes = [
   {
     path: '/',
