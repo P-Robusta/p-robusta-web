@@ -64,6 +64,7 @@ export const About = (props) => {
                 data-adapt-container-width="true"
                 data-hide-cover="true"
                 data-show-facepile="true"
+                style={{ maxWidth: '100%' }}
               >
                 <blockquote
                   cite="https://www.facebook.com/passerelles.numeriques/?ref=page_internal"
