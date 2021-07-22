@@ -16,6 +16,7 @@ import { Contact } from '../components/Contact/contact';
 import appData from '../data/data.json';
 // convinient module
 import SmoothScroll from 'smooth-scroll';
+//import { Team } from '../components/Staff/Team';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -43,6 +44,7 @@ const Homepage = () => {
       <Donate />
       <StudentFeedbacks data={landingPageData.StudentFeedbacks} />
       <ProductCreation />
+      {/* <Team /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   );
