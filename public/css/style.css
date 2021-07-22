@@ -623,4 +623,10 @@ label {
 #donate .btn-donate-custom {
   color: #fff;
   background: #22bbea;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#donate .btn-donate-custom:hover::before {
+  content: '<';
 }

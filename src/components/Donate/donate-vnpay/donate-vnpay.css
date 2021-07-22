@@ -1,0 +1,12 @@
+.by-vnpay .hero {
+  color: #22bbea;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.by-vnpay .hero h2 {
+  color: #22bbea;
+  padding: 10px;
+}
