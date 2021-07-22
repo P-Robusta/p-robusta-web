@@ -1,0 +1,360 @@
+{
+    "Header": {
+        "title": "Code Hub",
+        "paragraph": " Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    },
+    "a":[
+
+    ],
+    "Partners": [
+        {
+            "imgPNV":"img/partner/pnv-kms.jpg",
+            "image": "img/partner/accenture.jpg",
+            "text": "KMS hỗ trợ PNV trong thiết bị học tập "
+        },
+
+        {
+            "imgPNV":"img/partner/pnvInternShip.png",
+            "image": "img/partner/danavtc.png",
+            "text": "Các công ty đối tác hỗ trợ các bạn sinh viên năm 2 trong việc thực tập 2 tháng."
+        },
+        {"imgPNV":"img/partner/pnv-kms.jpg",
+            "image": "img/partner/enouvo.png",
+            "text": " KMS hỗ trợ PNV trong thiết bị học tập  "
+        },
+        {"imgPNV":"img/partner/estRoug3.jpg",
+            "image": "img/partner/FondationAmanjaya.png",
+            "text": " Sinh viên PNV với chuyến thăm công ty ESTROUG "
+        },
+        {"imgPNV":"img/partner/htActivejpg",
+            "image": "img/partner/jpMorgan.png",
+            "text": " Hoạt động của sinh viên PNV tại HT Active "
+        },
+        {"imgPNV":"img/partner/neolab2.jpg",
+            "image": "img/partner/kms.png",
+            "text": " Chuyến thăm của các bạn sinh viên tại công ty Neolab ."
+        },
+        {"imgPNV":"img/partner/seaDev3.jpg",
+            "image": "img/partner/laidon.png",
+            "text": "Thực tập sinh tại SeaDev"
+        },
+        { "imgPNV":"img/partner/enouvo.png",
+            "image": "img/partner/lekhanhtech.png",
+            "text": " financial support helps fund the training, "
+        },
+        {    "imgPNV":"img/partner/pnvInternShip.png",
+            "image": "img/partner/linkbynet.png",
+            "text": " financial support helps fund the training, "
+        },
+        {   "imgPNV":"img/partner/pnv-mgm.jpg",
+            "image": "img/partner/motorolaSolutions.png",
+            "text": " financial support helps fund the training."
+        },
+        { "imgPNV":"img/partner/pnvInternShip.png",
+            "image": "img/partner/pycogroup.png",
+            "text": " financial support helps fund the training, "
+        },
+        { "imgPNV":"img/partner/estroug.jpg",
+            "image": "img/partner/thales.png",
+            "text": " financial support helps fund the training, "
+        }
+    ],
+
+    "Team": [
+        {
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "JoinUs":{
+        "paragraph":[
+
+            "Bạn đang tìm kiếm thử thách mới, hãy tham gia cùng chúng tôi. PN thường xuyên cần nguồn nhân lực cho các vị trí nhân viên dự án, tình nguyện viên, và thực tập sinh tại  Đà Nẵng Việt Nam",
+                    "Chúng tôi thường xuyên tìm kiếm tình nguyện viên và thực tập sinh ( truyền thông, gây quỹ, tài chính, etc.). Bạn có thể nộp ngay hồ sơ bằng cách gửi CV và cover letter đến: missions@passerellesnumeriques.org."
+        ],
+        "content":[
+            "Passerelles numériques (PN), một tổ chức phi lợi nhuận của Pháp, cho phép những người trẻ không may mắn xây dựng khả năng làm việc của họ thông qua giáo dục trong ngành công nghiệp kỹ thuật số, đồng thời tận dụng tiềm năng và ý chí của họ; nó cho phép họ và gia đình họ thoát nghèo một cách bền vững và đóng góp vào sự phát triển kinh tế và xã hội của đất nước họ.",
+                   "Passerelles numériques bắt đầu sứ mệnh của mình vào năm 2010, với một trung tâm đào tạo có trụ sở tại Đà Nẵng, miền Trung Việt Nam. Năm 2012, khóa đầu tiên tốt nghiệp với 27 học viên, và hầu hết đều có việc làm ngay sau khi tốt nghiệp. Ngày nay, PN Việt Nam (PNV) đào tạo 130 học viên và 298 thanh niên có hoàn cảnh khó khăn đã tốt nghiệp từ năm 2010.",
+                   "PN Việt Nam là một tổ chức dựa trên trung tâm, nơi học sinh được cung cấp các hỗ trợ về giáo dục, sư phạm và xã hội, nhằm đảm bảo sự thành công trong học tập và phát triển cá nhân của các em."
+        ],
+        "title":"Passerelles numériques Vietnam tuyển dụng",
+        "organisation":"Passerelles numeriques ",
+        "reporting_to":"Education Manager",
+        "status":"Local contract/Full Time",
+        "project":"Passerelles numériques Vietnam",
+        "start_date":"21-07-2021",
+        "location":"Da Nang, Vietnam",
+        "eduTeam":
+           ["Trong vòng ba năm đào tạo tại Passerelles numériques, tất cả các sinh viên đều được nuôi dưỡng để trở nên trưởng thành, có trách nhiệm và sẵn sàng đối mặt với cuộc sống nghề nghiệp và cá nhân trong tương lai.",
+                    "Để đạt được những mục tiêu đầy tham vọng này, nhóm Giáo dục đang quan tâm, hướng dẫn, giám sát và trao quyền cho học sinh hàng ngày. Nó bao gồm việc cung cấp cho họ hỗ trợ vật chất, y tế và tâm lý, tạo điều kiện cho các hoạt động và tổ chức các sự kiện, theo dõi kết quả học tập của họ và phối hợp với đào tạo, đưa ra các buổi tư vấn, thực hiện kỷ luật và giám sát cuộc sống hàng ngày của họ trong ký túc xá (bữa ăn, giờ học, công việc…) .",
+                    "Dưới sự giám sát trực tiếp của Giám đốc Giáo dục, Nhà giáo dục có trách nhiệm khuyến khích tinh thần cộng đồng trong học sinh, tạo ra các hoạt động bổ sung và kích thích sự tò mò và ý thức chủ động của các em.",
+                    "Các nhà giáo dục phụ trách giám sát cuộc sống của học sinh cả ở trung tâm và ký túc xá và đảm bảo các quy tắc của PNV được tôn trọng. Họ thực hiện theo dõi chặt chẽ học sinh, cả ở cấp độ tập thể và cá nhân. Họ nhận thức rõ về hoàn cảnh của học sinh và có thể hướng dẫn các em bất cứ khi nào các em gặp khó khăn.",
+                    "Các nhà giáo dục nên linh hoạt trong lịch trình làm việc của họ và luôn sẵn sàng hỗ trợ học sinh khi cần thiết. Chi tiết về lịch trình sẽ trao đổi khi phỏng vấn."
+
+    ]
+
+
+
+    },
+    "Education":{
+        "title":"PN Việt Nam - Educator (Nhà giáo dục)",
+        "organisation":"Passerelles numeriques ",
+        "reporting_to":"Education Manager",
+        "status":"Đang tuyển",
+        "project":"Passerelles numériques Vietnam",
+        "start_date":"Ngày 21, tháng 7, năm 2021",
+        "location":"99 Tô Hiến Thành, Phước Mỹ, Sơn Trà, TP Đà Nẵng",
+        "background":
+        [
+            "Để đạt được những mục tiêu đầy tham vọng này, nhóm Giáo dục đang quan tâm, hướng dẫn, giám sát và trao quyền cho học sinh hàng ngày. Nó bao gồm việc cung cấp cho họ hỗ trợ vật chất, y tế và tâm lý, tạo điều kiện cho các hoạt động và tổ chức các sự kiện, theo dõi kết quả học tập của họ và phối hợp với đào tạo, đưa ra các buổi tư vấn, thực hiện kỷ luật và giám sát cuộc sống hàng ngày của họ trong ký túc xá (bữa ăn, giờ học, công việc…) .",
+            "Dưới sự giám sát trực tiếp của Giám đốc Giáo dục, Nhà giáo dục có trách nhiệm khuyến khích tinh thần cộng đồng trong học sinh, tạo ra các hoạt động bổ sung và kích thích sự tò mò và ý thức chủ động của các em.",
+            "Các nhà giáo dục phụ trách giám sát cuộc sống của học sinh cả ở trung tâm và ký túc xá và đảm bảo các quy tắc của PNV được tôn trọng. Họ thực hiện theo dõi chặt chẽ học sinh, cả ở cấp độ tập thể và cá nhân. Họ nhận thức rõ về hoàn cảnh của học sinh và có thể hướng dẫn các em bất cứ khi nào các em gặp khó khăn.",
+            "Các nhà giáo dục nên linh hoạt trong lịch trình làm việc của họ và luôn sẵn sàng hỗ trợ học sinh khi cần thiết. Chi tiết về lịch trình sẽ trao đổi khi phỏng vấn."
+
+],
+"contextAndMission":[
+    "PN Việt Nam là một tổ chức dựa trên trung tâm, nơi học sinh được cung cấp hỗ trợ về giáo dục, sư phạm và xã hội, nhằm đảm bảo sự thành công trong học tập và phát triển cá nhân của các em.",
+    "Dưới sự giám sát trực tiếp của Giám đốc Giáo dục, Nhà giáo dục có trách nhiệm khuyến khích tinh thần cộng đồng trong học sinh, tạo ra các hoạt động bổ sung và kích thích sự tò mò và ý thức chủ động của các em. Các nhà giáo dục chịu trách nhiệm giám sát cuộc sống của sinh viên cả tại trung tâm và tại ký túc xá và đảm bảo các quy tắc của PNV được tôn trọng. Họ thực hiện theo dõi chặt chẽ học sinh, cả ở cấp độ tập thể và cá nhân. Họ hiểu rõ về hoàn cảnh của học sinh và có thể hướng dẫn các em bất cứ khi nào các em gặp khó khăn. Các nhà giáo dục nên linh hoạt trong lịch trình làm việc của họ và luôn sẵn sàng hỗ trợ học sinh khi cần thiết. Chi tiết về lịch trình sẽ trao đổi khi phỏng vấn."
+
+],
+"students’Supervision":[
+    "Đảm bảo theo dõi sinh viên hàng ngày tại Trung tâm PNV và ký túc xá: giám sát hành vi, động cơ và sức khỏe; cung cấp lời khuyên và hỗ trợ đạo đức khi cần thiết",
+    "Thực hiện các quyết định kỷ luật nghiêm khắc nhưng công bằng theo quy tắc ứng xử của PNV ",
+    "Đối phó với bất kỳ loại trường hợp khẩn cấp nào liên quan đến học sinh (có thể bao gồm việc đến bệnh viện hoặc chính quyền địa phương)"
+
+],
+"dormitory":[
+    "Đến thăm ký túc xá ít nhất 3 lần / tuần (buổi tối và thứ bảy) và đảm bảo quản lý tốt ký túc xá (dọn dẹp, nấu ăn, bảo quản vật chất)",
+    "Giúp học sinh nâng cao thói quen vệ sinh ăn uống, học tập, ngủ nghỉ hàng ngày",
+    "Đảm bảo sự hợp tác tốt giữa PNV và Ban quản lý Ký túc xá"
+
+],
+"educationActivities":[
+    "Tổ chức các sự kiện PNV và Giáo dục liên quan đến sinh viên  ",
+    "Chuẩn bị và tiến hành các hoạt động / lớp học phát triển theo chương trình học nhằm phát triển các kỹ năng sống và mềm của học sinh ",
+    "Tạo, tổ chức và tạo điều kiện cho các hoạt động định tính thường xuyên với học sinh"
+],
+"report":
+    "Đảm bảo báo cáo hàng tuần cho các chuyến thăm Ký túc xá bao gồm thông tin liên quan đến tình trạng phòng, các hoạt động được tổ chức, các cuộc họp cá nhân, các tình huống cụ thể"
+
+    ,
+    "other":[
+        "Hiểu đầy đủ và tận tâm với dự án PN ",
+        "Có sẵn cho ca tối và cuối tuần (chủ yếu là thứ bảy)",
+        "Đóng góp tích cực vào tinh thần làm việc nhóm",
+        "Tham gia các chuyến đi thực tế lựa chọn (tại 7 tỉnh miền Trung Việt Nam)",
+        "Tham gia các khóa đào tạo cho nhân viên"
+
+    ],
+    "education":[
+        "Trình độ học vấn: Cử nhân",
+        "Chuyên ngành: Giáo dục, Nhân văn, Tâm lý học, Công tác xã hội"
+    ],
+    "skillAndExperience":[
+        "Độ dài kinh nghiệm: không có, 1 hoặc 2 năm",
+        "Lĩnh vực: Giáo viên, Giáo dục, Hoạt động xã hội",
+        "Giám sát các nhóm & hoạt động thanh niên",
+        "Giảng dạy (đặc biệt là kỹ năng mềm)",
+        "Kinh nghiệm trong tổ chức phi chính phủ / từ thiện sẽ là một lợi thế",
+        "Tinh thần trách nhiệm cao và chủ động",
+        "Sáng tạo và đổi mới: kỹ năng nghệ thuật sẽ là một điểm cộng",
+        "Khắt khe và khắt khe",
+        "Trưởng thành và kiên nhẫn để xử lý các tình huống phức tạp",
+        "Khả năng thích ứng tốt và linh hoạt",
+        "Kỹ năng CNTT: Microsoft office (Excel, Word, Powerpoint…)",
+        "Ngôn ngữ: Thành thạo tiếng Anh và tiếng Việt"
+    ],
+    "statusAndCondition":[
+        "Lương tùy hồ sơ",
+        "Bảo hiểm theo quy định của Chính phủ Việt Nam",
+        "Bảo hiểm chăm sóc sức khỏe tư nhân",
+        "Nghỉ phép có lương: 20 ngày mỗi năm",
+        "Tiền thưởng ngày lễ",
+        "Thưởng thâm niên 3 năm một lần",
+        "Thưởng hàng năm"
+    ]
+    },
+
+
+    "About": {
+        "paragraph": "Passerelles numériques (PN) là một tổ chức phi chính phủ của Pháp, được thành lập năm 2005 và đang hoạt động tại 3 quốc gia châu Á: Campuchia, Philippines và Việt Nam.Sứ mệnh của chúng tôi là tạo điều kiện cho các thanh niên có hoàn cảnh khó khăn được học hành, được đào tạo chuyên môn và đào tạo kĩ năng trong lĩnh vực kĩ thuật số bằng cách phát huy tối đa tiềm năng cũng như sức mạnh ý chí của các em. Chúng tôi cũng nổ lực giúp các em có việc làm nhằm giúp các em và gia đình thoát khỏi đói nghèo một cách bền vững,góp phần vào sự phát triển kinh tế xã hội chung của đất nước.Các đối tượng PN hỗ trợ là các thanh thiếu niên có hoàn cảnh rất khó khăn, rất cần sự giúp đỡ Tùy theo đặc thù mỗi nước mà PN có trung tâm đào tạo đang hoạt động, các tiêu chí tuyển sinh sẽ được điều chỉnh cho phù hợp.",
+        "Why": [
+            "2020:Passerelles numériques kỉ niệm 10 năm khởi động dự án PN Việt Nam tại Đà Nẵng",
+            "2016: Sự ra đời của tổ chức pháp nhân PN SEA (Đông Nam Á) ở Singapore với mục tiêu gây quỹ và nâng cao nhận thức về những hành động của tổ chức Passerelles numériques.",
+            "2015: Passerelles numériques kỉ niệm 10 năm thành lập! Kể từ năm 2010, PN đã đào tạo miễn phí chương trình Công nghệ thông tin cho hơn 1500 sinh viên.",
+            "2013 : Thành lập Passerelles numériques Hồng Kông, quỹ từ thiện do các tình nguyện viên sáng lập với mong muốn quảng bá PN và gây quỹ ủng hộ cho dự án.",
+            "2012: Lễ tốt nghiệp niên khóa đầu tiên của PN Philippines (24 sinh viên) và PN Việt Nam (27 sinh viên)",
+            "2010: Khởi động dự án PN Việt Nam tại Đà Nẵng với 30 em sinh viên",
+            "2009: Khởi động dự án PN Philippines tại Cebu với 25 em sinh viên.",
+            "2007: Lễ tốt nghiệp của 20 sinh viên thuộc niên khóa đầu tiên của PN Campuchia (chuyên ngành Quản trị mạng).",
+            "2006: Thành lập tổ chức phi chính phủ của Pháp mang tên Passerelles numériques.",
+            "2005: Thành lập trung tâm đào tạo đầu tiên tại Phnom Penh, Campuchia với 25 sinh viên."
+        ],
+        "goal": [
+            "Mục tiêu PN là giúp đỡ 90% sinh viên theo học có thể thoát nghèo một cách bền vững, trở thành những nhân viên chuyên nghiệp, là những công dân tốt của quốc gia và tận dụng các cơ hội để mở ra cuộc sống mới cho tương lai của bản thân và gia đình.",
+            "PN còn mong muốn hạn chế những bất bình đẳng giới tính. Chính vì vậy, ở mỗi trung tâm của PN, chúng tôi luôn nỗ lực để đảm bảo ít nhất 50% ( hoặc tối đa là ⅔) sinh viên nhập học là nữ."
+        ],
+        "joinUs": [
+            "Ngày hội thông tin: giới thiệu dự án PN, chương trình học bổng chuyên ngành Công nghệ thông tin và những cơ hội của ngành.",
+            "Bài thi viết: bao gồm Logic, Toán và Tiếng Anh nhằm đánh giá khả năng của sinh viên.",
+            "Phỏng vấn cá nhân: đánh giá động lực, độ trưởng thành và tư duy của sinh viên.",
+            "Điều tra gia cảnh: khảo sát hoàn cảnh gia đình để lựa chọn những trường hợp có hoàn cảnh khó khăn nhất."
+        ],
+        "intensiveTraining": [
+            "Kỹ năng tiếng Anh: Giao tiếp cơ bản, tiếng Anh chuyên ngành và Toeic.",
+            "Kỹ năng mềm: tập trung phát triển những kĩ năng làm việc trong môi trường chuyên nghiệp thông qua hiểu biết chung về xã hội, kinh tế và chuẩn mực ứng xử.",
+            "Kỹ năng mềm chuyên sâu: phát triển những khả năng cao hơn như suy nghĩ cởi mở, tự chủ, linh động và sáng tạo."
+        ],
+        "trainingAndPractice": "Với mong muốn đào tạo cho các sinh viên những kĩ năng phù hợp với nhu cầu của doanh nghiệp, chương trình giảng dạy tại Passerelles numériques luôn được cập nhật để đáp ứng những nhu cầu từ phía doanh nghiệp và thị trường: có tính ứng dụng cao, chuyên sâu và được chứng nhận.",
+        "educationAndPersonalityDevelopment": [
+            "Phát triển nhận thức và nhân cách: trao đổi và tư vấn.",
+            "Chi phí đào tạo.",
+            "Chi phí sinh hoạt: chi phí nhà ở và trang thiết bị, chi phí ăn uống, phương tiện đi lại, chăm sóc sức khỏe và bảo hiểm y tế.",
+            "Các em sẽ được nhận trợ cấp hàng tháng và tự học cách quản lý chi tiêu. Gia đình hỗ trợ một phần nhỏ trong chi phí mỗi tháng cho chi tiêu cá nhân của các em."
+        ],
+        "education": [
+            "Để chuẩn bị cho sinh viên trở thành công dân trẻ độc lập và tự chủ, PN đã xây dựng một chương trình ngoại khóa phát triển cá nhân xoay quanh ba giá trị cốt yếu của PN: tin tưởng, trách nhiệm, đoàn kết. Khóa học này giúp cho sinh viên tiếp thu vững chắc các kiến thức chung và hiểu hơn về thế giới xung quanh.",
+            "Chúng tôi còn giúp các em phát triển ý thức chung về sức khỏe và môi trường thông qua các hoạt động phòng chống và tự bảo vệ. Với mục tiêu giúp sinh viên hoàn toàn tập trung vào việc học, PN trang trải tất cả các chi phí bao gồm:"
+        ],
+        "jobSearchSupport": "Được sự hỗ trợ của của Bộ phận Đối ngoại, Hội cựu sinh viên và các đối tác của PN, sinh viên luôn được hướng dẫn và theo sát trong các kì thực tập cũng như trong quá trình tìm kiếm việc làm sau khi tốt nghiệp ( tham gia các hội thảo về cách viết sơ yếu lý lịch và đơn sinh việc, tư vấn cá nhân, định hướng nghề nghiệp, các hội thảo về kỹ năng tham gia phỏng vấn."
+    },
+    "Testimonials": [
+        {
+            "img": "img/staff/oanh.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "Oanh Huynh",
+            "position": "Trưởng phòng đối ngoại"
+        },
+        {
+            "img": "img/staff/nhai.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "Hồ Thị Ngọc Nhài",
+            "position": "Nhân viên giáo dục tại PN Viet nam"
+        },
+        {
+            "img": "img/staff/diep.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "TRẦN Thị Diệp",
+            "position": "Nhân viên tuyến sinh tại , PN Viet nam"
+        },
+        {
+            "img": "img/staff/cu.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "Nguyễn Văn Cư",
+            "position": "Cựu sinh viên tại PN Viet Nam"
+        },
+        {
+            "img": "img/staff/chi20.jpg",
+            "text": "\"Tôi cảm thấy may mắn khi trở thành một thành viên của Gia đình PNV, nơi tôi có cơ hội làm việc với các đồng nghiệp chuyên nghiệp, đi nhiều hơn và thấy những vùng đất với những con người mới để mở mang đầu óc và trái tim. Là một Cán bộ tuyển sinh, tôi tự hào nhận sứ mệnh giúp đỡ các em học sinh kém may mắn có cơ hội học tập và thay đổi cuộc sống. Tôi rất hi vọng các sinh viên sẽ thực hiện được ước mơ của mình!\"",
+            "name": "TRẦN Thị Diệp",
+            "position": "Cựu sinh viên tại PN Viet Nam"
+        },
+        {
+            "img": "img/staff/cuong.jpg",
+            "text": "\"PN Việt Nam đến như một phép màu. Chúng em là khóa đầu tiên của chương trình đào tạo mới kéo dài 3 năm. Chúng em đã có nhiều thời gian hơn để tìm hiểu các công nghệ tiên tiến mà các công ty cần, cũng như cải thiện khả năng tiếng Anh và kĩ năng mềm của mình – những hành trang cần thiết trên con đường sự nghiệp. Chúng em được học cách trở thành một thành viên có giá trị trong nhóm, một nhà lãnh đạo tài tình, hoặc thậm chí là một doanh nhân thành công. Và hơn hết, học phần Chuyên môn hóa và kỳ thực tập cuối cùng chính là cơ hội để em tăng khả năng được tuyển dụng của mình một cách đáng kinh ngạc. Bây giờ, em rất tự hào khi nói rằng em đã có thể chăm sóc cho bản thân và gia đình. Em cảm thấy có thêm động lực để cống hiến cho cộng đồng bằng cách tham gia Hội Cựu sinh viên PN Việt Nam và các hoạt động xã hội khác.\"",
+            "name": "Nguyễn Hữu Cường",
+            "position": "Cựu sinh viên tại PN Viet Nam"
+        }
+    ],
+    "Contact": {
+        "address": "99 Tô Hiến Thành, Phước Mỹ, Sơn Trà, TP Đà Nẵng ",
+        "phone": "+84 236 3888 503",
+        "email": "info.vietnam@passerellesnumeriques.org",
+        "facebook": "https://www.facebook.com/pages/Passerelles%20Num%C3%A9riques%20Vietnam/555945917794307/",
+        "twitter": "twitter.com",
+        "youtube": "https://www.youtube.com/watch?v=gkLdO8I76LI"
+    },
+    "News": [
+        {
+            "icon": "fa fa-comments-o",
+            "title": "Chúng tôi làm gì",
+            "text": "Tìm hiểu thêm về dự án Passerelles numériques",
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/PNC_students_training_2015-88.jpg",
+            "link": "/it-raise-it"
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Chúng tôi là ai",
+            "text": "Cùng gặp gỡ các thành viên của Passerelles numériques",
+            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/03/who-we-are.jpg",
+            "link": "/it-raise-it"
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "IT nuôi IT",
+            "text": "TẠI SAO LẠI LÀ #ITNUOIIT - CHƯƠNG TRÌNH GÂY ...",
+            "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/123763308_3409862459093213_5117645189510611542_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=W8Xh3MD2gHEAX_GnIGF&_nc_ht=scontent-hkg4-1.xx&oh=3d08d8ca4bf74d7716f7b31c798e0051&oe=60F74B4B",
+            "link": "/it-raise-it"
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Hoa nở trong bão",
+            "text": "“Mỗi người sinh ra đều có một số mệnh” – Đó là điều mà ...",
+            "image": "https://i.ibb.co/zZXqXGr/Blossom-in-the-storm-1.jpg",
+            "link": "/it-raise-it"
+        }
+    ],
+    "ITRaiseIT": {
+        "paragraph": "Fundraising VND 70 million per month from the benevolent IT community to cover the costs of IT studies and accommodation for PNV students in the next 7 months (Total: VND 500 million until the end of 2021).",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "StudentFeedbacks": [
+        {
+            "img": "img/studentfeedbacks/01.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/02.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/03.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/04.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/05.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        },
+        {
+            "img": "img/studentfeedbacks/01.jpg",
+            "text": "\"That's what Ho T.H., a 2nd year student at Passerelles numériques Vietnam (PNV), class 21 chose. H. has chosen to say no to the prejudice that if a girl is old enough, she should get married to fulfill her filial piety.\"",
+            "name": "H. T. H."
+        }
+    ]
+}
