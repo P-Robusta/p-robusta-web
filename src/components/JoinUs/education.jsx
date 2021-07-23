@@ -29,11 +29,11 @@ export const Education = (props) => {
         </ul>
       </div>
       {!focus === true ? (
-        <div className=" row show" onClick={(e) => onFocus(e)}>
+        <div className="row show mb-1" onClick={(e) => onFocus(e)}>
           Xem thêm
         </div>
       ) : (
-        <div className="row">
+        <div className="row mb-1">
           <span className="title-content">Bối cảnh và nhiệm vụ</span>
           <ul>
             {Data.Education

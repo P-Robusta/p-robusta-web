@@ -26,12 +26,17 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 const Homepage = () => {
   const [landingPageData, setLandingPageData] = useState({});
   const [banners, setBanners] = useState([]);
+  const [partners, setPartners] = useState([]);
   // const [feedback, setFeedback] = useState([]);
 
   useEffect(() => {
     setLandingPageData(appData);
     CallAPI('banners').then((res) => {
       setBanners(res.data.data);
+    });
+
+    CallAPI('partners').then((res) => {
+      setPartners(res.data.data);
     });
 
     // CallAPI('feedback').then((res) => {
@@ -45,7 +50,7 @@ const Homepage = () => {
       <Header banners={banners} />
       <News data={landingPageData.News} />
       <About data={landingPageData.About} />
-      <Partners data={landingPageData.Partners} />
+      <Partners data={partners} />
       <Donate />
       <JoinUs data={landingPageData.JoinUs} />
       <Contact data={landingPageData.Contact} />

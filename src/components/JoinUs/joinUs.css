@@ -1,43 +1,45 @@
+#join-us .section-title {
+  margin-top: 70px;
+}
 
-.paragraphJoinUs{
+.paragraphJoinUs {
   text-align: left;
 }
-.joinUs-text{
+.joinUs-text {
   text-align: right;
   margin-bottom: 6px;
   margin-left: 60px;
   list-style: none;
   padding: 0;
 }
-.titleJoinUs{
+.titleJoinUs {
   font-size: 25px;
   color: black;
 }
-.date{
+.date {
   color: black;
   font-size: 20px;
   padding-left: 0px;
 }
-.title-content{
+.title-content {
   font-size: 22px;
   color: black;
 }
-.title-content-children{
-  font-size:18px;
+.title-content-children {
+  font-size: 18px;
   color: black;
 }
-.show{
+.show {
   color: #22bbea;
 }
-.modal_button{
+.modal_button {
   background-color: #ff9933;
   color: white;
   font-weight: 500;
   align-items: flex-end;
   text-align: end;
-
 }
-.modal{
+.modal {
   /* padding-left: 90px; */
   font-weight: 500;
   width: 1300px;
@@ -51,15 +53,15 @@
   line-height: normal;
   font-size: large;
 }
-.modal-form{
+.modal-form {
   width: 1500px;
 }
-.button-form{
+.button-form {
   padding-right: 70px;
   margin-right: 200px;
   align-items: center;
-  text-align:end;
+  text-align: end;
 }
-.label-form{
+.label-form {
   width: 90px;
 }

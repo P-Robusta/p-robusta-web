@@ -56,7 +56,7 @@ export const Contact = (props) => {
   };
   return (
     <div>
-      <div id="contact">
+      <div id="contact"  >
         <div className="container">
           <div className="col-md-8">
             <div className="row">
@@ -76,7 +76,7 @@ export const Contact = (props) => {
                         type="text"
                         id="name"
                         name="name"
-                        className="form-control"
+                        className="form-control contact__input"
                         placeholder="Họ và tên"
                         required
                         onChange={handleChange}
@@ -90,7 +90,7 @@ export const Contact = (props) => {
                         type="email"
                         id="email"
                         name="email"
-                        className="form-control"
+                        className="form-control contact__input"
                         placeholder="Địa chỉ Email"
                         required
                         onChange={handleChange}
@@ -106,7 +106,7 @@ export const Contact = (props) => {
                         type="number"
                         id="phone"
                         name="phone"
-                        className="form-control"
+                        className="form-control contact__input"
                         placeholder="Số điện thoại"
                         required
                         onChange={handleChange}
@@ -119,7 +119,7 @@ export const Contact = (props) => {
                       <select
                         id="position"
                         name="position"
-                        className="form-control"
+                        className="form-control contact__input"
                         required
                         onChange={handleChange}
                       >
@@ -138,7 +138,7 @@ export const Contact = (props) => {
                   <textarea
                     name="message"
                     id="message"
-                    className="form-control"
+                    className="form-control contact__message"
                     rows="4"
                     placeholder="Thông tin đóng góp"
                     required
