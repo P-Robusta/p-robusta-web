@@ -5,7 +5,7 @@ const BtnBackHome = () => {
   return (
     <div>
       <NavLink to="/">
-        <button className="btn-back-home" href="/">
+        <button className="btn-back-home">
           <HomeIcon className="icon" />
         </button>
       </NavLink>
