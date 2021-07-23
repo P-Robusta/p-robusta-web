@@ -1,7 +1,45 @@
-// export const Contact = (props) => {
+import TextField from '@material-ui/core/TextField';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import AttachFileIcon from '@material-ui/icons/AttachFile';
 import './joinUs.css';
+import SendEmail from '../../helper/SendEmail';
+import Swal from 'sweetalert2';
+
 import React from 'react';
+
 export const ModalJoinUs = (props) => {
+  const onSubmitHandle = (e) => {
+    e.preventDefault();
+    console.log(e.target);
+    Swal.fire({
+      title: 'Nộp đơn ứng tuyển ngay?',
+      icon: 'question',
+      showCancelButton: true,
+      confirmButtonColor: '#22bbea',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Gửi',
+      cancelButtonText: 'Hủy',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        SendEmail(e.target, 'contact_email_pnv').then(
+          () => {
+            Swal.fire(
+              'Thành công!',
+              'Bạn đã gửi đơn ứng tuyển của đến cho PNV.',
+              'success'
+            );
+          },
+          () => {
+            Swal.fire(
+              'Thất bại!',
+              'Có lỗi đã xảy ra trong quá trình gửi email.',
+              'error'
+            );
+          }
+        );
+      }
+    });
+  };
   return (
     <div className="container">
       <button
@@ -10,22 +48,19 @@ export const ModalJoinUs = (props) => {
         data-toggle="modal"
         data-target="#exampleModal"
       >
-        Thư ứng tuyển
+        Nộp đơn ứng tuyển
       </button>
       <div
         className="modal fade modal-form"
         id="exampleModal"
         tabIndex={-1}
         role="dialog"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="modalSubmitEmailRecruitment"
         aria-hidden="true"
       >
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">
-                Điền thư ứng tuyển
-              </h5>
               <button
                 type="button"
                 className="close"
@@ -34,112 +69,86 @@ export const ModalJoinUs = (props) => {
               >
                 <span aria-hidden="true">×</span>
               </button>
+              <h5 className="modal-title" id="modalSubmitEmailRecruitment">
+                Điền thư ứng tuyển
+              </h5>
             </div>
             <div className="modal-body">
-              <form className="form-horizontal" action="/action_page.php">
+              <form
+                className="form-horizontal text-center"
+                onSubmit={onSubmitHandle}
+              >
                 <div className="form-group">
-                  <label
-                    className="control-label col-sm-2 label-form"
-                    htmlFor="name"
-                  >
-                    Họ và tên
-                  </label>
-                  <div className="col-sm-10">
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="name"
-                      placeholder="Nguyễn Văn A"
-                      name="name"
-                    />
-                  </div>
+                  <TextField
+                    id="candidate_name"
+                    name="candidate_name"
+                    type="text"
+                    label="Họ và tên"
+                    required
+                  />
                 </div>
+
                 <div className="form-group">
-                  <label
-                    className="control-label col-sm-2"
-                    htmlFor="labelPhone"
-                  >
-                    Số điện thoại
-                  </label>
-                  <div className="col-sm-10">
-                    <input
-                      type="number"
-                      className="form-control"
-                      id="phone"
-                      placeholder={'0123456789'}
-                      name="phone"
-                    />
-                  </div>
+                  <TextField
+                    type="number"
+                    id="candidate_phone"
+                    name="candidate_phone"
+                    label="Số điện thoại"
+                    required
+                  />
                 </div>
+
                 <div className="form-group">
-                  <label className="control-label col-sm-2" htmlFor="email">
-                    Email:
-                  </label>
-                  <div className="col-sm-10">
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="email"
-                      placeholder="a.nguyen@gmail.com"
-                      name="email"
-                    />
-                  </div>
+                  <TextField
+                    type="email"
+                    id="candidate_email"
+                    name="candidate_email"
+                    label="Email"
+                    required
+                  />
                 </div>
+
                 <div className="form-group">
-                  <label
-                    className="control-label col-sm-2 label-form"
-                    htmlFor="filecv"
-                  >
-                    Đính kèm CV
-                  </label>
-                  <div className="col-sm-10">
-                    <input
-                      type="file"
-                      className="form-control"
-                      id="cv"
-                      name="cv"
-                    />
-                  </div>
+                  <TextField
+                    type="file"
+                    id="candidate_cv"
+                    name="candidate_cv"
+                    label="CV"
+                    required
+                    InputProps={{
+                      startAdornment: (
+                        <InputAdornment position="start">
+                          <AttachFileIcon />
+                        </InputAdornment>
+                      ),
+                    }}
+                  />
                 </div>
+
                 <div className="form-group">
-                  <label
-                    className="control-label col-sm-2"
-                    htmlFor="fileCoverLetter"
-                  >
-                    Đính kèm thư xin việc
-                  </label>
-                  <div className="col-sm-10">
-                    <input
-                      type="file"
-                      className="form-control"
-                      id="letter"
-                      name="letter"
-                    />
-                  </div>
+                  <TextField
+                    type="file"
+                    label="Cover Letter"
+                    id="candidate_cover_letter"
+                    name="candidate_cover_letter"
+                    InputProps={{
+                      startAdornment: (
+                        <InputAdornment position="start">
+                          <AttachFileIcon />
+                        </InputAdornment>
+                      ),
+                    }}
+                  />
                 </div>
                 <div className="form-group">
                   <div className="col-sm-offset-2 col-sm-10 button-form">
                     <button type="submit" className="btn btn-info ">
-                      Submit
+                      Gửi
                     </button>
                   </div>
                 </div>
               </form>
             </div>
-            /
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" className="btn btn-primary">
-                Save changes
-              </button>
-            </div>{' '}
-            */{'}'}
           </div>
         </div>
       </div>

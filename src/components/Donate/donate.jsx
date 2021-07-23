@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     margin: '20px 0',
+    height: '100%',
   },
   media: {
     height: '210px',
@@ -86,7 +87,7 @@ export const Donate = () => {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h4" component="h4">
-                      Tài trợ cho PNV
+                      Tài trợ cho Passerelles numériques Vietnam
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -112,7 +113,7 @@ export const Donate = () => {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h4" component="h4">
-                      Tài trợ bằng các hình thức khác
+                      Tài trợ bằng các hình thức khác(thiết bị,...)
                     </Typography>
                   </CardContent>
                 </CardActionArea>

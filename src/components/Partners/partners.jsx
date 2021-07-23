@@ -13,19 +13,24 @@ export const Partners = (props) => {
         <div className="row">
           <Slide>
             {props.data
-              ? props.data.map((item) => {
-                  return (
-                    <div key={item.imgPNV}>
-                      <div className="slideContent">
-                        <img
-                          className="slideImage"
-                          src={item.imgPNV}
-                          alt="PNV"
-                        />
-                        <span className="slideTitle title">{item.text}</span>
+              ? props.data.map((e) => {
+                  if (e.image_with_pn) {
+                    return (
+                      <div key={e.image_with_pn}>
+                        <div className="slideContent">
+                          <img
+                            className="slideImage"
+                            src={e.image_with_pn}
+                            alt="PNV"
+                          />
+                          <span className="slideTitle title">
+                            {e.note_for_image}
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                  );
+                    );
+                  }
+                  return '';
                 })
               : 'Loading...'}
           </Slide>
@@ -37,7 +42,9 @@ export const Partners = (props) => {
                 return (
                   <div key={i} className="col-md-3 col-sm-6">
                     <div className="thumbnail imageLogo">
-                      <img src={e.image} alt="company" key={`${e}-${i}`} />
+                      <a href={e.website}>
+                        <img src={e.logo} alt="company" key={`${e}-${i}`} />
+                      </a>
                     </div>
                   </div>
                 );
