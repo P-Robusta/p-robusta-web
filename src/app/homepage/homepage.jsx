@@ -9,6 +9,8 @@ import { Partners } from '../../components/Partners/partners';
 
 import { Donate } from '../../components/Donate/donate';
 import { Contact } from '../../components/Contact/contact';
+
+import Messenger from '../../components/MessengerBuble/messenger';
 // fake data
 import appData from '../../data/data.json';
 // convinient module
@@ -34,6 +36,7 @@ const Homepage = () => {
     <div>
       <Navigation />
       <Header />
+      <Messenger />
       <News data={landingPageData.News} />
       <About data={landingPageData.About} />
       <Partners data={landingPageData.Partners} />

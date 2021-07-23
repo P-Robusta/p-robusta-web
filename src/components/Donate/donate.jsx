@@ -57,7 +57,7 @@ export const Donate = () => {
                     title="Contemplative Reptile"
                   />
                   <CardContent>
-                    <Typography gutterBottom variant="button h4" component="h4">
+                    <Typography gutterBottom variant="h4" component="h4">
                       Tham gia ủng hộ trong chương trình #ITnuoiIT
                     </Typography>
                   </CardContent>
@@ -85,7 +85,7 @@ export const Donate = () => {
                     title="Contemplative Reptile"
                   />
                   <CardContent>
-                    <Typography gutterBottom variant="button h4" component="h4">
+                    <Typography gutterBottom variant="h4" component="h4">
                       Tài trợ cho PNV
                     </Typography>
                   </CardContent>
@@ -111,7 +111,7 @@ export const Donate = () => {
                     title="Contemplative Reptile"
                   />
                   <CardContent>
-                    <Typography gutterBottom variant="button h4" component="h4">
+                    <Typography gutterBottom variant="h4" component="h4">
                       Tài trợ bằng các hình thức khác
                     </Typography>
                   </CardContent>
