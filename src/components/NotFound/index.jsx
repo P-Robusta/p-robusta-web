@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './NotFound.css';
 NotFound.propTypes = {};
 
@@ -28,7 +28,7 @@ function NotFound() {
             <tr>
               <td>
                 <button>
-                  <NavLink to="/">Về trang chủ</NavLink>
+                  <Link to="/">Về trang chủ</Link>
                 </button>
               </td>
             </tr>

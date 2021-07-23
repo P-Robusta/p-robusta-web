@@ -15,7 +15,7 @@ export const Partners = (props) => {
                     alt="Hinh anh"
                     width="400"
                     height="284"
-                    style={{ padding: '10px' }}
+                    style={{ padding: '10px', maxWidth: '100%' }}
                   />
                   <div className="partner-desc">
                     <p>{d.text}</p>

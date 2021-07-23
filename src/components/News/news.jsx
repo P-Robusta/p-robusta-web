@@ -21,7 +21,6 @@ const useStyles = makeStyles({
 
 export const News = (props) => {
   const classes = useStyles();
-
   return (
     <div id="news" className="text-center">
       <div className="container">
@@ -31,7 +30,10 @@ export const News = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                <div
+                  key={`${d.title}-${i}`}
+                  className="col-xs-12 col-sm-6 col-md-3"
+                >
                   <Card className={classes.root}>
                     <CardActionArea>
                       <CardMedia

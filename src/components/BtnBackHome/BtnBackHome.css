@@ -1,0 +1,35 @@
+/* Button go back home page */
+.btn-back-home {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  background: red;
+  opacity: 0.6;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-back-home:hover::after {
+  content: ' Về trang chủ';
+}
+
+.btn-back-home .icon {
+  padding: 7px 5px 5px 5px;
+  font-size: 30px;
+  animation: BackHomePage 0.5s ease-in-out infinite alternate;
+}
+@keyframes BackHomePage {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.5, 1.5);
+  }
+}

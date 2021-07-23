@@ -1,5 +1,20 @@
+import { useEffect, useState } from 'react';
 import Item from './item';
+import NumberOverview from './number_overview';
+import CallAPI from '../../helper/callAPI';
+import './header.css';
 export const Header = (props) => {
+  const [numbers, setNumbers] = useState({});
+
+  useEffect(() => {
+    CallAPI('number_overviews')
+      .then((res) => {
+        const { data } = res.data;
+        setNumbers(data);
+      })
+      .catch((error) => console.error(error));
+  }, []);
+
   return (
     <header id="header">
       <div id="headerCarousel" className="carousel slide" data-ride="carousel">
@@ -60,6 +75,26 @@ export const Header = (props) => {
         >
           <span className="sr-only">Next</span>
         </a>
+      </div>
+      <br />
+      <div className="hero">
+        <p className="container text-center title">
+          Passerelles numériques là tổ chức phi chính phủ của Pháp thành lập năm
+          2005 và hiện có ba trung tâm đào tạo tại Campuchia, Philippines và
+          Việt Nam
+        </p>
+        <div className="text-center">
+          <img src="logo-pnv.svg" alt="logo svg" className="img-hero" />
+        </div>
+        <p className="container">
+          <span className="detail">
+            PN Việt Nam và 10 năm tác động bền vững cho xã hội Việt Nam:
+          </span>
+        </p>
+      </div>
+
+      <div>
+        <NumberOverview numbers={numbers} />
       </div>
     </header>
   );

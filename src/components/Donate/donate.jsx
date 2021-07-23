@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     margin: '20px 0',
   },
   media: {
-    height: 300,
+    height: '210px',
     width: '100%',
   },
 }));
@@ -23,101 +23,113 @@ const useStyles = makeStyles((theme) => ({
 export const Donate = () => {
   const classes = useStyles();
   return (
-    <div className="container">
-      <div className={classes.root}>
-        <Grid container spacing={1}>
-          <Grid item xs={4}>
-            <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Tài trợ hàng tháng
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions className="text-center">
-                <Button
-                  size="large"
-                  variant="contained"
-                  style={{
-                    background: '#22bbea',
-                    fontSize: '13px',
-                    fontWeight: '900',
-                    color: '#fff',
-                  }}
-                >
-                  Tài trợ ngay
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
+    <div id="donate" className="text-center">
+      <div className="container">
+        <div className="col-md-12 section-title">
+          <h2>Tài trợ</h2>
+          <h5>
+            Nhờ vào những tài trợ của các bạn, chúng tôi có thể duy trì hoạt
+            động của tổ chức và đóng góp nhiều lợi ích hơn cho cộng đồng.
+          </h5>
+          <p style={{ wordWrap: 'break-word' }}>
+            Bạn có thể tạo ra sự khác biệt và thay đổi cuộc sống của những thanh
+            niên có hoàn cảnh khó khăn bằng cách hỗ trợ tổ chức Passerelles
+            numériques.Để hướng đến một tổ chức hoạt động ổn định, hãy hỗ trợ
+            chúng tôi hàng tháng. Những tài trợ thường xuyên của bạn là sự giúp
+            đỡ có ý nghĩa và thiết thực đối với Passerelles numériques. Bạn có
+            thể chọn một loại hình tài trợ và góp phần vào xây dựng Passerelles
+            numériques. Tất cả đều đơn giản và được bảo mật!
+          </p>
+          <p>
+            Nếu bạn mong muốn chuyển khoản trực tiếp cho PN Việt Nam (bằng séc
+            hoặc tiền mặt), vui lòng liên hệ văn phòng{' '}
+            <a href="#contact">PNV</a>.
+          </p>
+        </div>
+        <div className={classes.root}>
+          <Grid container spacing={1}>
+            <Grid item md={4} sm={12}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    image="/img/donate/it-raise-it.jpg"
+                    title="Contemplative Reptile"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="h4">
+                      Tham gia ủng hộ trong chương trình #ITnuoiIT
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
 
-          <Grid item xs={4}>
-            <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Tài trợ
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions className="text-center">
-                <Button
-                  size="large"
-                  variant="contained"
-                  style={{
-                    background: '#22bbea',
-                    fontSize: '13px',
-                    fontWeight: '900',
-                    color: '#fff',
-                  }}
-                >
-                  Tài trợ ngay
-                </Button>
-              </CardActions>
-            </Card>
+                <CardActions dir="rtl">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    className="btn-donate-custom"
+                    href="/alettertoitengineers"
+                  >
+                    &nbsp;&nbsp;Tham gia ngay
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+
+            <Grid item md={4} xs={12}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    image="/img/donate/donate.jpg"
+                    title="Contemplative Reptile"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="h4">
+                      Tài trợ cho PNV
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions dir="rtl">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    className="btn-donate-custom"
+                    href="/donate-by-vn-pay"
+                  >
+                    &nbsp;&nbsp;Tài trợ ngay
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+            <Grid item md={4} xs={12}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    image="/img/donate/pnv-kms.jpg"
+                    title="Contemplative Reptile"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="h4">
+                      Tài trợ bằng các hình thức khác
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions dir="rtl">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    className="btn-donate-custom"
+                    href="mailto:ero.vietnam@passerellesnumeriques.org"
+                  >
+                    &nbsp;&nbsp;Liên hệ ngay
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
           </Grid>
-          <Grid item xs={4}>
-            <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image="https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/DSC_4392-1.jpg"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Tài trợ bằng vật phẩm
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions className="text-center">
-                <Button
-                  size="large"
-                  variant="contained"
-                  style={{
-                    background: '#22bbea',
-                    fontSize: '13px',
-                    fontWeight: '900',
-                    color: '#fff',
-                  }}
-                >
-                  Tài trợ ngay
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-        </Grid>
+        </div>
       </div>
     </div>
   );

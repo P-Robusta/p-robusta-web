@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="300.000000pt" height="100.000000pt" viewBox="0 0 326.000000 133.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+ <style>
+.p-letter {
+  easing: 'easeInOutSine';
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 1000;
+  delay: 2;
+  animation: dash 2s linear alternate infinite;
+}
+
+.v-letter {
+  easing: 'easeInOutSine';
+  stroke-dasharray: 5500;
+  stroke-dashoffset: 1000;
+  delay: 2;
+  animation: dash 2s linear alternate infinite;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 5500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.n-letter {
+  easing: 'easeInOutSine';
+  stroke-dasharray: 6500;
+  stroke-dashoffset: 0;
+  delay: 2;
+  animation: dash-n 2s linear alternate infinite;
+}
+@keyframes dash-n {
+  from {
+    stroke-dashoffset: 6500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+
+<g transform="translate(0.000000,133.000000) scale(0.100000,-0.100000)">
+
+<path class="p-letter" fill="#fff" stroke="#22bbea" stroke-width="90" d="M336 1263 c-14 -50 -266 -1161 -266 -1176 0 -15 15 -17 153 -17 l153
+0 17 73 c9 39 28 123 43 184 l26 113 206 0 c188 0 209 2 248 21 55 26 80 67
+103 171 10 45 42 184 70 307 54 237 57 261 40 293 -24 44 -56 48 -433 48 -329
+0 -355 -1 -360 -17z m474 -166 c0 -12 -95 -435 -106 -469 -5 -16 -19 -18 -106
+-18 -99 0 -100 0 -94 23 3 12 29 124 58 250 l53 227 97 0 c73 0 98 -3 98 -13z"/>
+
+<path class="n-letter" fill="#fff" stroke="#ff9933" stroke-width="90" d="M1306 1263 c-3 -10 -64 -274 -136 -588 -72 -314 -133 -578 -136 -587
+-5 -17 7 -18 154 -18 l160 0 4 27 c9 51 130 578 134 582 2 2 6 2 8 0 2 -2 19
+-140 37 -307 l33 -302 153 0 c84 0 153 2 153 5 0 2 61 270 135 595 74 324 135
+594 135 600 0 16 -295 13 -307 -2 -5 -7 -38 -139 -73 -293 -35 -154 -66 -289
+-70 -300 -7 -19 -8 -18 -13 5 -3 14 -18 140 -32 280 -14 140 -29 269 -33 285
+l-8 30 -146 3 c-133 2 -147 1 -152 -15z"/>
+
+<path class="v-letter" fill="#fff" stroke="#d9271d" stroke-width="90" d="M2265 1271 c-5 -9 5 -257 35 -931 5 -118 10 -227 10 -242 l0 -28 153
+0 152 0 298 595 c163 327 297 600 297 605 0 7 -55 10 -157 8 l-156 -3 -104
+-240 c-57 -132 -134 -309 -170 -393 -36 -84 -68 -151 -69 -149 -2 2 1 175 6
+386 6 210 8 386 5 391 -8 13 -292 13 -300 1z"/>
+</g>
+</svg>
