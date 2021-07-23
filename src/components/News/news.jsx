@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import TextTruncate from 'react-text-truncate'
 import { NavLink } from 'react-router-dom';
 
 const useStyles = makeStyles({
@@ -17,10 +17,23 @@ const useStyles = makeStyles({
   media: {
     height: 140,
   },
+  cardActions: {
+    justifyContent: 'flex-end',
+  },
+  textDescription: {
+    height: '100px'
+  },
+  title: {
+    height: '60px'
+  },
+  viewMoreBtn: {
+    padding: '3px 5px'
+  }
 });
 
 export const News = (props) => {
   const classes = useStyles();
+
   return (
     <div id="news" className="text-center">
       <div className="container">
@@ -42,19 +55,30 @@ export const News = (props) => {
                         title="Contemplative Reptile"
                       />
                       <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                          {d.title}
+                        <Typography gutterBottom variant="h5" component="h2" className={classes.title}>
+                          <TextTruncate
+                            line={2}
+                            element="span"
+                            truncateText="…"
+                            text={d.title}
+                          />
                         </Typography>
                         <Typography
                           variant="h5"
                           color="textSecondary"
                           component="p"
+                          className={classes.textDescription}
                         >
-                          {d.text}
+                          <TextTruncate
+                            line={3}
+                            element="span"
+                            truncateText="…"
+                            text={d.text}
+                          />
                         </Typography>
                       </CardContent>
                     </CardActionArea>
-                    <CardActions>
+                    <CardActions className={classes.cardActions}>
                       <NavLink to={d.link}>
                         <Button
                           size="small"
@@ -64,9 +88,8 @@ export const News = (props) => {
                             background: '#ff9933',
                             color: '#fff',
                           }}
-                        >
-                          Xem thêm
-                        </Button>
+                          children={<Typography className={classes.viewMoreBtn}>Xem thêm</Typography>}
+                        />
                       </NavLink>
                     </CardActions>
                   </Card>

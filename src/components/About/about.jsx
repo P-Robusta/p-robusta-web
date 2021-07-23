@@ -1,11 +1,31 @@
-export const About = (props) => {
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  aboutYoutubeLink: {
+    width: '100%',
+    height: '300px',
+    marginBottom: '20px',
+    border: '1px solid #4bc7ef',
+    borderRadius: '6px',
+  },
+  fbPage: {
+    backgroundColor: 'red'
+  }
+});
+
+const About = (props) => {
+  const classes = useStyles();
+
   return (
     <div id="about">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
+            <div className="list-style">
+              <h3>Hoạt động</h3>
+            </div>
             <iframe
-              className="aboutYoutubeLink"
+              className={classes.aboutYoutubeLink}
               src="https://www.youtube.com/embed/-PSpCJg7KsI"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -15,9 +35,7 @@ export const About = (props) => {
 
             <br></br>
             <div className="list-style">
-              <h3>Hoạt động</h3>
               <h3>Quy trình tuyển sinh công bằng và nghiêm ngặt</h3>
-
               <ul>
                 {props.data
                   ? props.data.joinUs.map((d, i) => (
@@ -49,7 +67,6 @@ export const About = (props) => {
             <br />
             <div className="about-text">
               <h3>Hỗ trợ tìm kiếm việc làm</h3>
-
               <p>{props.data ? props.data.jobSearchSupport : 'loading...'}</p>
               <div
                 className="fb-page"
@@ -124,3 +141,5 @@ export const About = (props) => {
     </div>
   );
 };
+
+export { About }
