@@ -17,53 +17,26 @@ export const Header = (props) => {
     <header id="header">
       <div id="headerCarousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
-          {props.banners.map((item, index) => {
-            if (index === 0) {
-              return (
-                <li
-                  key={index}
-                  data-target="#headerCarousel"
-                  data-slide-to={0}
-                  className="active"
-                />
-              );
-            } else {
-              return (
-                <li
-                  key={index}
-                  data-target="#headerCarousel"
-                  data-slide-to={index}
-                />
-              );
-            }
-          })}
+          {props.banners.map((item, index) => (
+            <li
+              key={index}
+              data-target="#headerCarousel"
+              data-slide-to={index === 0 ? 0 : index}
+              className={`${index === 0 ? 'active' : ''}`}
+            />
+          ))}
         </ol>
         <div className="carousel-inner" role="listbox">
-          {props.banners.map((item, index) => {
-            if (index === 0) {
-              return (
-                <div className="item active">
-                  <Item
-                    data={{
-                      image: item.image,
-                      paragraph: item.text,
-                    }}
-                  />
-                </div>
-              );
-            } else {
-              return (
-                <div className="item">
-                  <Item
-                    data={{
-                      image: item.image,
-                      paragraph: item.text,
-                    }}
-                  />
-                </div>
-              );
-            }
-          })}
+          {props.banners.map((item, index) => (
+            <div key={index} className={`item ${index === 0 ? 'active' : ''}`}>
+              <Item
+                data={{
+                  image: item.image,
+                  paragraph: item.text,
+                }}
+              />
+            </div>
+          ))}
         </div>
         <a
           className="left carousel-control"
