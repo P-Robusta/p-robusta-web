@@ -4,10 +4,17 @@ import AttachFileIcon from '@material-ui/icons/AttachFile';
 import './joinUs.css';
 import SendEmail from '../../helper/SendEmail';
 import Swal from 'sweetalert2';
-
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  applyButton: {
+    textAlign: 'end'
+  }
+});
 
 export const ModalJoinUs = (props) => {
+  const classes = useStyles();
   const onSubmitHandle = (e) => {
     e.preventDefault();
     console.log(e.target);
@@ -41,7 +48,7 @@ export const ModalJoinUs = (props) => {
     });
   };
   return (
-    <div className="container">
+    <div className={classes.applyButton}>
       <button
         type="button"
         className="btn btn-info modal_button"

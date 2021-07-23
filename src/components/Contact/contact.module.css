@@ -1,0 +1,13 @@
+.contact .contact__input {
+  font-size: 14px;
+  border-radius: 3px;
+  height: 40px;
+}
+.contact .contact__select {
+  font-size: 14px;
+  border-radius: 3px;
+}
+.contact .contact__message {
+  font-size: 14px;
+  border-radius: 3px;
+}
