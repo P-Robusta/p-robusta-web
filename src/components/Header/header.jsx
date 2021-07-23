@@ -65,7 +65,7 @@ export const Header = (props) => {
         <p className="pnv-text">PN Vietnam</p>
         <p className="container">
           <span className="detail">
-            PN Việt Nam và 10 năm tác động bền vững cho xã hội Việt Nam:
+            PN Việt Nam và 10 năm tác động bền vững cho xã hội Việt Nam
           </span>
         </p>
       </div>
