@@ -1,48 +1,160 @@
 {
-    "Header": {
-        "title": "Code Hub",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-    },
     "Partners": [
         {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/04/logo_accenture-400x284.png",
-            "text": "After a large contribution to our program in Cambodia,  is, since 2010, the main partner of the development of PN Philippines, with a financial contribution over four years. Moreover, employees of Accenture Cebu are in charge of a part of the training (Business Life Training), and consultants and senior executives from France are also involved during short missions on the field. In April 2013, Accenture France implemented the “Payroll Giving” for its employees, in favor of charities, including Passerelles numériques."
+            "imgPNV": "img/partner/pnv-kms.jpg",
+            "image": "img/partner/accenture.jpg",
+            "text": "KMS hỗ trợ PNV trong thiết bị học tập "
         },
         {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2018/05/Gemalto_Web-1.jpg",
-            "text": "From 2017 to 2020, Gemalto supports financially the scholarship of students of Passerelles numériques Philippines"
+            "imgPNV": "img/partner/pnvInternShip.png",
+            "image": "img/partner/danavtc.png",
+            "text": "Các công ty đối tác hỗ trợ các bạn sinh viên năm 2 trong việc thực tập 2 tháng."
         },
         {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2017/10/comgestfoundation-400x284.png",
-            "text": "foundation supports financially the scholarship of students of our Cambodian centre."
+            "imgPNV": "img/partner/pnv-kms.jpg",
+            "image": "img/partner/enouvo.png",
+            "text": " KMS hỗ trợ PNV trong thiết bị học tập  "
         },
         {
-            "image": "https://www.passerellesnumeriques.org/wp-content/uploads/2016/06/Econocom_logo_big-400x284.png",
-            "text": " financial support helps fund the training, education and guidance to employment of 20 students during one year in our Centre of Cebu in the Philippines."
+            "imgPNV": "img/partner/estRoug3.jpg",
+            "image": "img/partner/FondationAmanjaya.png",
+            "text": " Sinh viên PNV với chuyến thăm công ty ESTROUG "
+        },
+        {
+            "imgPNV": "img/partner/htActivejpg",
+            "image": "img/partner/jpMorgan.png",
+            "text": " Hoạt động của sinh viên PNV tại HT Active "
+        },
+        {
+            "imgPNV": "img/partner/neolab2.jpg",
+            "image": "img/partner/kms.png",
+            "text": " Chuyến thăm của các bạn sinh viên tại công ty Neolab ."
+        },
+        {
+            "imgPNV": "img/partner/seaDev3.jpg",
+            "image": "img/partner/laidon.png",
+            "text": "Thực tập sinh tại SeaDev"
+        },
+        {
+            "imgPNV": "img/partner/enouvo.png",
+            "image": "img/partner/lekhanhtech.png",
+            "text": " financial support helps fund the training, "
+        },
+        {
+            "imgPNV": "img/partner/pnvInternShip.png",
+            "image": "img/partner/linkbynet.png",
+            "text": " financial support helps fund the training, "
+        },
+        {
+            "imgPNV": "img/partner/pnv-mgm.jpg",
+            "image": "img/partner/motorolaSolutions.png",
+            "text": " financial support helps fund the training."
+        },
+        {
+            "imgPNV": "img/partner/pnvInternShip.png",
+            "image": "img/partner/pycogroup.png",
+            "text": " financial support helps fund the training, "
+        },
+        {
+            "imgPNV": "img/partner/estroug.jpg",
+            "image": "img/partner/thales.png",
+            "text": " financial support helps fund the training, "
         }
     ],
-    "Team": [
-        {
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
-        },
-        {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
-        }
-    ],
+    "JoinUs": {
+        "paragraph": [
+            "Bạn đang tìm kiếm thử thách mới, hãy tham gia cùng chúng tôi. PN thường xuyên cần nguồn nhân lực cho các vị trí nhân viên dự án, tình nguyện viên, và thực tập sinh tại  Đà Nẵng Việt Nam",
+            "Chúng tôi thường xuyên tìm kiếm tình nguyện viên và thực tập sinh ( truyền thông, gây quỹ, tài chính, etc.). Bạn có thể nộp ngay hồ sơ bằng cách gửi CV và cover letter đến: missions@passerellesnumeriques.org."
+        ],
+        "content": [
+            "Passerelles numériques (PN), một tổ chức phi lợi nhuận của Pháp, cho phép những người trẻ không may mắn xây dựng khả năng làm việc của họ thông qua giáo dục trong ngành công nghiệp kỹ thuật số, đồng thời tận dụng tiềm năng và ý chí của họ; nó cho phép họ và gia đình họ thoát nghèo một cách bền vững và đóng góp vào sự phát triển kinh tế và xã hội của đất nước họ.",
+            "Passerelles numériques bắt đầu sứ mệnh của mình vào năm 2010, với một trung tâm đào tạo có trụ sở tại Đà Nẵng, miền Trung Việt Nam. Năm 2012, khóa đầu tiên tốt nghiệp với 27 học viên, và hầu hết đều có việc làm ngay sau khi tốt nghiệp. Ngày nay, PN Việt Nam (PNV) đào tạo 130 học viên và 298 thanh niên có hoàn cảnh khó khăn đã tốt nghiệp từ năm 2010.",
+            "PN Việt Nam là một tổ chức dựa trên trung tâm, nơi học sinh được cung cấp các hỗ trợ về giáo dục, sư phạm và xã hội, nhằm đảm bảo sự thành công trong học tập và phát triển cá nhân của các em."
+        ],
+        "title": "Passerelles numériques Vietnam tuyển dụng",
+        "organisation": "Passerelles numeriques ",
+        "reporting_to": "Education Manager",
+        "status": "Local contract/Full Time",
+        "project": "Passerelles numériques Vietnam",
+        "start_date": "21-07-2021",
+        "location": "Da Nang, Vietnam",
+        "eduTeam": [
+            "Trong vòng ba năm đào tạo tại Passerelles numériques, tất cả các sinh viên đều được nuôi dưỡng để trở nên trưởng thành, có trách nhiệm và sẵn sàng đối mặt với cuộc sống nghề nghiệp và cá nhân trong tương lai.",
+            "Để đạt được những mục tiêu đầy tham vọng này, nhóm Giáo dục đang quan tâm, hướng dẫn, giám sát và trao quyền cho học sinh hàng ngày. Nó bao gồm việc cung cấp cho họ hỗ trợ vật chất, y tế và tâm lý, tạo điều kiện cho các hoạt động và tổ chức các sự kiện, theo dõi kết quả học tập của họ và phối hợp với đào tạo, đưa ra các buổi tư vấn, thực hiện kỷ luật và giám sát cuộc sống hàng ngày của họ trong ký túc xá (bữa ăn, giờ học, công việc…) .",
+            "Dưới sự giám sát trực tiếp của Giám đốc Giáo dục, Nhà giáo dục có trách nhiệm khuyến khích tinh thần cộng đồng trong học sinh, tạo ra các hoạt động bổ sung và kích thích sự tò mò và ý thức chủ động của các em.",
+            "Các nhà giáo dục phụ trách giám sát cuộc sống của học sinh cả ở trung tâm và ký túc xá và đảm bảo các quy tắc của PNV được tôn trọng. Họ thực hiện theo dõi chặt chẽ học sinh, cả ở cấp độ tập thể và cá nhân. Họ nhận thức rõ về hoàn cảnh của học sinh và có thể hướng dẫn các em bất cứ khi nào các em gặp khó khăn.",
+            "Các nhà giáo dục nên linh hoạt trong lịch trình làm việc của họ và luôn sẵn sàng hỗ trợ học sinh khi cần thiết. Chi tiết về lịch trình sẽ trao đổi khi phỏng vấn."
+        ]
+    },
+    "Education": {
+        "title": "PN Việt Nam - Educator (Nhà giáo dục)",
+        "organisation": "Passerelles numeriques ",
+        "reporting_to": "Education Manager",
+        "status": "Đang tuyển",
+        "project": "Passerelles numériques Vietnam",
+        "start_date": "Ngày 21, tháng 7, năm 2021",
+        "location": "99 Tô Hiến Thành, Phước Mỹ, Sơn Trà, TP Đà Nẵng",
+        "background": [
+            "Để đạt được những mục tiêu đầy tham vọng này, nhóm Giáo dục đang quan tâm, hướng dẫn, giám sát và trao quyền cho học sinh hàng ngày. Nó bao gồm việc cung cấp cho họ hỗ trợ vật chất, y tế và tâm lý, tạo điều kiện cho các hoạt động và tổ chức các sự kiện, theo dõi kết quả học tập của họ và phối hợp với đào tạo, đưa ra các buổi tư vấn, thực hiện kỷ luật và giám sát cuộc sống hàng ngày của họ trong ký túc xá (bữa ăn, giờ học, công việc…) .",
+            "Dưới sự giám sát trực tiếp của Giám đốc Giáo dục, Nhà giáo dục có trách nhiệm khuyến khích tinh thần cộng đồng trong học sinh, tạo ra các hoạt động bổ sung và kích thích sự tò mò và ý thức chủ động của các em.",
+            "Các nhà giáo dục phụ trách giám sát cuộc sống của học sinh cả ở trung tâm và ký túc xá và đảm bảo các quy tắc của PNV được tôn trọng. Họ thực hiện theo dõi chặt chẽ học sinh, cả ở cấp độ tập thể và cá nhân. Họ nhận thức rõ về hoàn cảnh của học sinh và có thể hướng dẫn các em bất cứ khi nào các em gặp khó khăn.",
+            "Các nhà giáo dục nên linh hoạt trong lịch trình làm việc của họ và luôn sẵn sàng hỗ trợ học sinh khi cần thiết. Chi tiết về lịch trình sẽ trao đổi khi phỏng vấn."
+        ],
+        "contextAndMission": [
+            "PN Việt Nam là một tổ chức dựa trên trung tâm, nơi học sinh được cung cấp hỗ trợ về giáo dục, sư phạm và xã hội, nhằm đảm bảo sự thành công trong học tập và phát triển cá nhân của các em.",
+            "Dưới sự giám sát trực tiếp của Giám đốc Giáo dục, Nhà giáo dục có trách nhiệm khuyến khích tinh thần cộng đồng trong học sinh, tạo ra các hoạt động bổ sung và kích thích sự tò mò và ý thức chủ động của các em. Các nhà giáo dục chịu trách nhiệm giám sát cuộc sống của sinh viên cả tại trung tâm và tại ký túc xá và đảm bảo các quy tắc của PNV được tôn trọng. Họ thực hiện theo dõi chặt chẽ học sinh, cả ở cấp độ tập thể và cá nhân. Họ hiểu rõ về hoàn cảnh của học sinh và có thể hướng dẫn các em bất cứ khi nào các em gặp khó khăn. Các nhà giáo dục nên linh hoạt trong lịch trình làm việc của họ và luôn sẵn sàng hỗ trợ học sinh khi cần thiết. Chi tiết về lịch trình sẽ trao đổi khi phỏng vấn."
+        ],
+        "students’Supervision": [
+            "Đảm bảo theo dõi sinh viên hàng ngày tại Trung tâm PNV và ký túc xá: giám sát hành vi, động cơ và sức khỏe; cung cấp lời khuyên và hỗ trợ đạo đức khi cần thiết",
+            "Thực hiện các quyết định kỷ luật nghiêm khắc nhưng công bằng theo quy tắc ứng xử của PNV ",
+            "Đối phó với bất kỳ loại trường hợp khẩn cấp nào liên quan đến học sinh (có thể bao gồm việc đến bệnh viện hoặc chính quyền địa phương)"
+        ],
+        "dormitory": [
+            "Đến thăm ký túc xá ít nhất 3 lần / tuần (buổi tối và thứ bảy) và đảm bảo quản lý tốt ký túc xá (dọn dẹp, nấu ăn, bảo quản vật chất)",
+            "Giúp học sinh nâng cao thói quen vệ sinh ăn uống, học tập, ngủ nghỉ hàng ngày",
+            "Đảm bảo sự hợp tác tốt giữa PNV và Ban quản lý Ký túc xá"
+        ],
+        "educationActivities": [
+            "Tổ chức các sự kiện PNV và Giáo dục liên quan đến sinh viên  ",
+            "Chuẩn bị và tiến hành các hoạt động / lớp học phát triển theo chương trình học nhằm phát triển các kỹ năng sống và mềm của học sinh ",
+            "Tạo, tổ chức và tạo điều kiện cho các hoạt động định tính thường xuyên với học sinh"
+        ],
+        "report": "Đảm bảo báo cáo hàng tuần cho các chuyến thăm Ký túc xá bao gồm thông tin liên quan đến tình trạng phòng, các hoạt động được tổ chức, các cuộc họp cá nhân, các tình huống cụ thể",
+        "other": [
+            "Hiểu đầy đủ và tận tâm với dự án PN ",
+            "Có sẵn cho ca tối và cuối tuần (chủ yếu là thứ bảy)",
+            "Đóng góp tích cực vào tinh thần làm việc nhóm",
+            "Tham gia các chuyến đi thực tế lựa chọn (tại 7 tỉnh miền Trung Việt Nam)",
+            "Tham gia các khóa đào tạo cho nhân viên"
+        ],
+        "education": [
+            "Trình độ học vấn: Cử nhân",
+            "Chuyên ngành: Giáo dục, Nhân văn, Tâm lý học, Công tác xã hội"
+        ],
+        "skillAndExperience": [
+            "Độ dài kinh nghiệm: không có, 1 hoặc 2 năm",
+            "Lĩnh vực: Giáo viên, Giáo dục, Hoạt động xã hội",
+            "Giám sát các nhóm & hoạt động thanh niên",
+            "Giảng dạy (đặc biệt là kỹ năng mềm)",
+            "Kinh nghiệm trong tổ chức phi chính phủ / từ thiện sẽ là một lợi thế",
+            "Tinh thần trách nhiệm cao và chủ động",
+            "Sáng tạo và đổi mới: kỹ năng nghệ thuật sẽ là một điểm cộng",
+            "Khắt khe và khắt khe",
+            "Trưởng thành và kiên nhẫn để xử lý các tình huống phức tạp",
+            "Khả năng thích ứng tốt và linh hoạt",
+            "Kỹ năng CNTT: Microsoft office (Excel, Word, Powerpoint…)",
+            "Ngôn ngữ: Thành thạo tiếng Anh và tiếng Việt"
+        ],
+        "statusAndCondition": [
+            "Lương tùy hồ sơ",
+            "Bảo hiểm theo quy định của Chính phủ Việt Nam",
+            "Bảo hiểm chăm sóc sức khỏe tư nhân",
+            "Nghỉ phép có lương: 20 ngày mỗi năm",
+            "Tiền thưởng ngày lễ",
+            "Thưởng thâm niên 3 năm một lần",
+            "Thưởng hàng năm"
+        ]
+    },
     "About": {
         "paragraph": "Passerelles numériques (PN) là một tổ chức phi chính phủ của Pháp, được thành lập năm 2005 và đang hoạt động tại 3 quốc gia châu Á: Campuchia, Philippines và Việt Nam.Sứ mệnh của chúng tôi là tạo điều kiện cho các thanh niên có hoàn cảnh khó khăn được học hành, được đào tạo chuyên môn và đào tạo kĩ năng trong lĩnh vực kĩ thuật số bằng cách phát huy tối đa tiềm năng cũng như sức mạnh ý chí của các em. Chúng tôi cũng nổ lực giúp các em có việc làm nhằm giúp các em và gia đình thoát khỏi đói nghèo một cách bền vững,góp phần vào sự phát triển kinh tế xã hội chung của đất nước.Các đối tượng PN hỗ trợ là các thanh thiếu niên có hoàn cảnh rất khó khăn, rất cần sự giúp đỡ Tùy theo đặc thù mỗi nước mà PN có trung tâm đào tạo đang hoạt động, các tiêu chí tuyển sinh sẽ được điều chỉnh cho phù hợp.",
         "Why": [

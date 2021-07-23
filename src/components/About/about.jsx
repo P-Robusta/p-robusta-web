@@ -5,17 +5,14 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             <iframe
-              width="560"
-              height="315"
+              className="aboutYoutubeLink"
               src="https://www.youtube.com/embed/-PSpCJg7KsI"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               style={{ maxWidth: '100%' }}
             ></iframe>
-            {/* <div className="list-style"> */}
-            {/* <div className="col-lg-6 col-sm-6 col-xs-12"> */}
-            {/* <div className="col-xs-12 col-md-6"> */}
+
             <br></br>
             <div className="list-style">
               <h3>Hoạt động</h3>
@@ -58,13 +55,13 @@ export const About = (props) => {
                 className="fb-page"
                 data-href="https://www.facebook.com/passerelles.numeriques/?ref=page_internal"
                 data-tabs="timeline"
-                data-width={500}
-                data-height={300}
                 data-small-header="true"
                 data-adapt-container-width="true"
                 data-hide-cover="true"
                 data-show-facepile="true"
                 style={{ maxWidth: '100%' }}
+                data-width={500}
+                data-height={300}
               >
                 <blockquote
                   cite="https://www.facebook.com/passerelles.numeriques/?ref=page_internal"
@@ -84,8 +81,6 @@ export const About = (props) => {
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
               <h3>Những dấu mốc phát triển</h3>
               <div className="list-style">
-                {/* <div className="col-lg-6 col-sm-6 col-xs-12"> */}
-                {/* <div className="col-xs-12 col-md-6"> */}
                 <ul>
                   {props.data
                     ? props.data.Why.map((d, i) => (
@@ -127,6 +122,5 @@ export const About = (props) => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };

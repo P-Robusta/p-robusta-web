@@ -18,3 +18,10 @@
   max-width: 100%;
   height: auto;
 }
+
+.hero .pnv-text {
+  font-size: 80px;
+  font-weight: 700;
+  color: #ff9933;
+  margin: 10px 0;
+}

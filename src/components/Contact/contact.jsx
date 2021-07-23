@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import emailjs from 'emailjs-com';
+import SendEmail from '../../helper/SendEmail';
+import Swal from 'sweetalert2';
 
 const initialState = {
   name: '',
@@ -20,23 +21,38 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     console.log(name, email, phone, position, message);
-    emailjs
-      .sendForm(
-        'pnv_email_contact',
-        'contact_email_pnv',
-        e.target,
-        'user_YO5xArGi32BdsNeUGC882'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    console.clear();
+    Swal.fire({
+      title: 'Gửi email đến cho Passerelles numériques Vietnam?',
+      icon: 'question',
+      showCancelButton: true,
+      confirmButtonColor: '#22bbea',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Gửi',
+      cancelButtonText: 'Hủy',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        SendEmail(e.target, 'contact_email_pnv').then(
+          (result) => {
+            clearState();
+            Swal.fire(
+              'Thành công!',
+              'Bạn đã gửi email đến cho PNV.',
+              'success'
+            );
+          },
+          () => {
+            Swal.fire(
+              'Thất bại!',
+              'Có lỗi đã xảy ra trong quá trình gửi email.',
+              'error'
+            );
+          }
+        );
+      }
+    });
   };
   return (
     <div>
@@ -107,12 +123,12 @@ export const Contact = (props) => {
                         required
                         onChange={handleChange}
                       >
-                        {/*  */}
                         <option value="partner">Đối tác</option>
                         <option value="donor">Nhà tài trợ</option>
                         <option value="student">Học sinh/sinh viên</option>
                         <option value="parent">Phụ huynh</option>
-                        <option value="employee">Nhân viên mới</option>
+                        <option value="employee">Nhân viên</option>
+                        <option value="other">Khác</option>
                       </select>
                       <p className="help-block text-danger"></p>
                     </div>
@@ -143,7 +159,7 @@ export const Contact = (props) => {
               <p>
                 <iframe
                   title="Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7668.419242364141!2d108.24203737454391!3d16.054608455559737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421836ed15dfc9%3A0x99c3cc369a33576c!2sPasserelles%20num%C3%A9riques%20Vietnam!5e0!3m2!1sen!2s!4v1626505147663!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.110435404449!2d108.2414633152852!3d16.059758038886798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421836ed15dfc9%3A0x99c3cc369a33576c!2sPasserelles%20num%C3%A9riques%20Vietnam!5e0!3m2!1svi!2s!4v1626596418915!5m2!1svi!2s"
                   width="300"
                   height="200"
                   style={{ border: '0' }}
@@ -205,10 +221,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2021 Passerelles numériques Vietnam
-            {/* <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a> */}
+            &copy; {new Date().getFullYear()} Passerelles numériques Vietnam
           </p>
         </div>
       </div>
