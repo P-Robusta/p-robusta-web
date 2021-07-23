@@ -85,6 +85,21 @@
         ],
         "jobSearchSupport": "Được sự hỗ trợ của của Bộ phận Đối ngoại, Hội cựu sinh viên và các đối tác của PN, sinh viên luôn được hướng dẫn và theo sát trong các kì thực tập cũng như trong quá trình tìm kiếm việc làm sau khi tốt nghiệp ( tham gia các hội thảo về cách viết sơ yếu lý lịch và đơn sinh việc, tư vấn cá nhân, định hướng nghề nghiệp, các hội thảo về kỹ năng tham gia phỏng vấn."
     },
+    "ITraiseIT": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
     "Testimonials": [
         {
             "img": "img/staff/oanh.jpg",

@@ -1,6 +1,7 @@
 import Homepage from './app/homepage';
 import NotFound from './components/NotFound';
 import ITRaiseIT from './components/News/Posts/ITraiseIT/it_raise_it';
+//import Main from './blog/Main';
 
 const routes = [
   {

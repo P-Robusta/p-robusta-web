@@ -2,11 +2,24 @@ import React from 'react';
 import './ITRaiseIT.css';
 import Button from '@material-ui/core/Button';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
 
-function ITRaiseIT(props) {
+export const ITRaiseIT = (props) => {
+
+
+
+
+
+
+  const [focus, setFocus] = useState(false);
+
+  const onFocus = (e) => {
+    e.preventDefault();
+    setFocus(!focus);
+  };
   return (
-    <div id="it_raise_it">
+    <div id="it_raise_it" >
       <NavLink to="/">
         <Button size="large" variant="contained" color="primary">
           <h5>
@@ -14,53 +27,89 @@ function ITRaiseIT(props) {
           </h5>
         </Button>
       </NavLink>
-      <div>
-        <div className="page-container">
-          <div className="section-title text-center">
-            <h2>SUPPORT POOR STUDENTS FOLLOWING IT LEARNING #ITRAISEIT</h2>
+
+      <div className="ITraiseIT ">
+        <div className=" title text-center">
+          <h2>SUPPORT POOR STUDENTS FOLLOWING IT LEARNING #ITRAISEIT</h2>
+        </div>
+        <div className="form-inline">
+          <div className='col-xs-12 col-md-6'>
+            {' '}
+            <img style={{ width: "90%" }} src="https://nerdpasserellesnumeriquesvn.herokuapp.com/images/activity/IMG_1179.JPG" className='img-responsive' alt='' />{' '}
           </div>
-
-          <div className="et_pb_section  et_pb_section_0 et_pb_with_background et_section_regular" >
-            <div className=" et_pb_row et_pb_row_0 et_pb_row_fullwidth">
-              <div className="w3-col w3-container m4  ">
-                <div className="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_0">
-                  <p style={{ textAlign: 'left' }}><span className="JsGRdQ">HỖ TRỢ CÁC EM SINH VIÊN NGHÈO THEO ĐUỔI VIỆC HỌC CNTT</span></p>
-                </div> <div className="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_1">
-                  <p style={{ textAlign: 'left' }}><strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#ITNUÔIIT</strong></p>
-                </div> {/* .et_pb_text */}<div className="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_2">
-                  <p><span className="JsGRdQ">&emsp;&emsp;Gây quỹ 70 triệu đồng mỗi tháng từ cộng đồng IT hảo tâm <br />để trang trải các chi phí học CNTT và chỗ ăn ở cho sinh viên PNV trong 7 tháng tới <br /> &emsp;&emsp;(Tổng cộng: 500 triệu đồng đến hết năm 2021).</span></p>
-                </div> {/* .et_pb_text */}<div className="et_pb_button_module_wrapper et_pb_module et_pb_button_alignment_center">
-                  <a className="et_pb_button  et_pb_button_0 et_pb_module et_pb_bg_layout_light" href="https://www.passerellesnumeriques.org/vi/join-itnuoiit/" target="_blank"><br /><br />THAM GIA NGAY!</a>
+          <div className='col-xs-12 col-md-6'>
+            <div className='it_raise_it-text text-center'>
+              <h3>HỖ TRỢ CÁC EM SINH VIÊN NGHÈO THEO ĐUỔI VIỆC HỌC CNTT</h3>
+              {/* <p>{props.data ? props.data.paragraph : 'loading...'}</p> */}
+              <p>Gây quỹ 70 triệu đồng mỗi tháng từ cộng đồng IT hảo tâm để trang trải các chi phí học CNTT và chỗ ăn ở cho sinh viên PNV trong 7 tháng tới (Tổng cộng: 500 triệu đồng đến hết năm 2021).</p>
+              <h3 style={{ textAlign: 'center' }}>#ITraiseIT</h3>
+              <div className='list-style'>
+                <div className='col-lg-6 col-sm-6 col-xs-12'>
+                  <h5>TẠI SAO LẠI LÀ #ITNUOIIT?</h5>
+                  <ul>
+                    <p>Vì Passerelles numériques Việt Nam (PNV) là một ngôi trường đặc biệt, nơi gieo mầm và nuôi dưỡng ước mơ của những kỹ sư công nghệ trong tương lai.</p>
+                  </ul>
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ITRaiseITModal">Join Us</button>
                 </div>
-              </div> {/* .et_pb_text */}
-              <div className="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_3">
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <div className="et_pb_button_module_wrapper et_pb_module et_pb_button_alignment_center">
-                  <a className="et_pb_button  et_pb_button_1 et_pb_module et_pb_bg_layout_light" href="https://www.passerellesnumeriques.org/en/itraiseit-transaction-update/" target="_blank">Xem cập nhật Khoản hỗ trợ Hàng tháng tại đây</a>
+                <div className='col-lg-6 col-sm-6 col-xs-12'>
+                  <h5>KHOẢN HỖ TRỢ HÀNG THÁNG</h5>
+                  <ul>
+                    <p> Cùng PNV xây dựng một cộng đồng những người làm việc tử tế để hướng tới một xã hội phát triển. </p>
+                  </ul>
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ITRaiseITDetailModal"> See more</button>
+
                 </div>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-
-
               </div>
-              {/* .et_pb_column */}<div className="et_pb_column et_pb_column_1_3  et_pb_column_1 et_pb_column_empty">
-              </div> {/* .et_pb_column */}<div className="et_pb_column et_pb_column_1_3  et_pb_column_2">
-
-              </div> {/* .et_pb_column */}
-            </div> {/* .et_pb_row */}
+            </div>
           </div>
 
+        </div>
+        <br />
+
+        <div className="form-row">
+          <div className='col-xs-8 col-md-6 text-center'>
+            <h3>ĐÓNG GÓP NHỎ NUÔI ƯỚC MƠ TO CHUNG TAY VIẾT TIẾP ƯỚC MƠ HỌC TẬP CỦA SINH VIÊN NGHÈO TRONG ĐẠI DỊCH</h3>
+            <p>Sự xuất hiện của đại dịch COVID-19 từ năm 2020 đến nay ít nhiều đã thay đổi cuộc sống của tất cả chúng ta. Với các em sinh viên nghèo đang theo học tại Passerelles Numériques Vietnam, dịch bệnh hoành hành không chỉ ảnh hưởng tới sinh hoạt thường ngày mà còn mang theo nhiều nỗi lo về việc học tập sắp tới.
+              “Em chỉ muốn được tiếp tục học hành. Dù là trong dịch bệnh phải học online, khó khăn hơn học bình thường ở lớp, em vẫn muốn được tiếp tục học.”
+              Đó là chia sẻ của một sinh viên năm nhất tại PNV, và cũng là tâm sự chung của tất cả các em khác nơi đây.</p>
 
 
+          </div>
+          <div className='col-xs-12 col-md-6'>
+            <img src="https://nerdpasserellesnumeriquesvn.herokuapp.com/images/activity/IMG_1209.JPG" className='img-responsive' alt='' />
 
-          <div className="text-center">
+          </div>
+          {!focus === true ? (
+            <div className=" show text-center" onClick={(e) => onFocus(e)}>
+              Xem thêm
+            </div>
+
+          ) : (
+            <div >
+              {/* <span className="title-content">Bối cảnh và nhiệm vụ</span> */}
+              <ul>
+                <p>
+                  Các học viên đã và đang theo học ở PNV đều có hoàn cảnh khó khăn, lại sinh sống ở miền Trung quanh năm bão lũ nên việc tiếp tục học tập sau bậc phổ thông vốn là một ước mơ xa xỉ. Thấu hiểu những điều này, PNV hơn 10 năm nay đã tìm kiếm và trao cho các em cơ hội được học hoàn toàn miễn phí với chương trình đào tạo ngành Công nghệ thông tin chuyên sâu và các kỹ năng mềm cần thiết, mong muốn giúp đỡ các em thoát nghèo bền vững bằng chính nỗ lực học tập của mình.
+                  Thế nhưng, trước tình hình đại dịch, hoạt động của PNV hai năm gần đây đang phải đối mặt với rất nhiều khó khăn. Tính đến tháng 7 năm nay, chúng tôi vẫn đang thiếu đến 71% nguồn quỹ để tiếp tục vận hành. Nhìn các em sinh viên thiếu thốn các thiết bị cần thiết để học online từ ký túc xá, lại thấp thỏm vì không biết việc học sắp tới thế nào, chúng tôi rất thương. Trong những lá thư các em gửi về cho ban điều hành PNV, được tiếp tục học là ước mơ cháy bỏng nhất. Vậy nên, PNV không muốn phụ lòng các em.
+                  Chiến dịch ĐÓNG GÓP NHỎ NUÔI ƯỚC MƠ TO được lập nên cũng vì lý do đó. Thông qua chiến dịch, chúng tôi mong muốn kêu gọi đóng góp 15.000.000 đồng tiền mặt từ các nhà hảo tâm để trang trải việc học cũng như sinh hoạt tại ký túc xá cho 126 em sinh viên hiện đang theo học tại PNV.  Mọi khoản đóng góp dù là nhỏ nhất đều có thể thay đổi cuộc sống của các em. Chỉ với 32.000 đồng, tương đương với một ly cà phê, một em sinh viên sẽ có cơ hội tiếp tục một buổi học IT và tiến gần hơn với ước mơ đưa gia đình thoát nghèo bền vững.
+                  Hãy cùng chúng tôi san sẻ một chút tình thương giữa đại dịch, trao tay các em một cơ hội được viết tiếp tương lai tươi sáng hơn.</p>
+              </ul>
+              <div className="show" onClick={(e) => onFocus(e)}>
+                &#171; Ẩn{' '}
+              </div>
+            </div>
+          )}
+        </div>
+
+
+        <div className="row">
+          <div className='col-xs-12 col-md-6'>
+
             <iframe
               title="Share IT raise IT"
               src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fpasserelles.numeriques%2Fvideos%2F984946508932118%2F&show_text=true&width=560&t=0"
-              width="70%"
-              height="700"
+              width="100%"
+              height="370"
               style={{ border: 'none', overflow: 'hidden' }}
               scrolling="no"
               frameborder="0"
@@ -68,83 +117,193 @@ function ITRaiseIT(props) {
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
               allowFullScreen="true"
             ></iframe>
+
           </div>
+          <div className='col-xs-12 col-md-6'>
+            <h3 className="text-center">TẠI SAO LẠI LÀ #ITNUOIIT  </h3>
+            <h4 className="text-center">CHƯƠNG TRÌNH GÂY QUỸ CỘNG ĐỒNG CỦA TỔ CHỨC PHI CHÍNH PHỦ PASSERELLES NUMÉRIQUES VIETNAM?</h4>
+            <p >- Vì các bạn không chỉ đóng góp cho các thanh niên có hoàn cảnh khó khăn được đi học mà còn trao quyền để họ có thể tự cầm cần câu và câu lấy những con cá thay đổi cuộc đời của chính họ.<br />
+              - Vì Passerelles numériques Việt Nam (PNV) là một ngôi trường đặc biệt, nơi gieo mầm và nuôi dưỡng ước mơ của những kỹ sư công nghệ trong tương lai.<br />
+              - Vì lòng tốt thì dễ lan tỏa nhưng không thể đi xa nếu thiếu mục đích để phát triển bền vững. Cùng PNV xây dựng một cộng đồng những người làm việc tử tế để hướng tới một xã hội phát triển lâu dài.</p>
+          </div>
+        </div>
 
 
 
+        <div className="row text-center">
+          <div className="section-title ">
+            <p style={{ textAlign: 'center' }}><b>Chiến dịch gây quỹ cộng đồng #ITnuôiIT</b></p>
+          </div>
+          <div style={{}}>
+            <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/1.jpg" alt="" />
 
-
-          <div className="et_pb_section  et_pb_section_2 et_section_regular">
-            <div className=" et_pb_row et_pb_row_2">
-              <div className="et_pb_column et_pb_column_4_4  et_pb_column_5">
-                <div className="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_6">
-                  <p style={{ textAlign: 'center' }}><b>Chiến dịch gây quỹ cộng đồng #ITnuôiIT</b></p>
-                </div> {/* .et_pb_text */}<div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_1 et_always_center_on_mobile et_pb_image_sticky et-animated">
-                  <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/1.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_2 et_always_center_on_mobile et_pb_image_sticky et-animated">
+            {!focus === true ? (
+              <div className=" show text-cente" onClick={(e) => onFocus(e)}>
+                Xem thêm
+              </div>
+            ) : (
+              <div >
+                {/* <span className="title-content">Bối cảnh và nhiệm vụ</span> */}
+                <ul>
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/2.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_3 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/3.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_4 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/4.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_5 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/5.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_6 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/6.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_7 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/7.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_8 et_always_center_on_mobile">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/8.jpg" alt="" />
-                </div><div className="et_pb_button_module_wrapper et_pb_module et_pb_button_alignment_center">
-                  <a className="et_pb_button  et_pb_button_2 et_pb_module et_pb_bg_layout_light" href="https://www.passerellesnumeriques.org/vi/join-itnuoiit/" target="_blank">Tham gia #ITnuoiIT ngay!</a>
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_9 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/9.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_10 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/10.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_11 et_always_center_on_mobile et_pb_image_sticky">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/11.jpg" alt="" />
-                </div><div className="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_12 et_always_center_on_mobile">
                   <img src="https://www.passerellesnumeriques.org/wp-content/uploads/2021/07/13.jpg" alt="" />
-                </div><div id="itnuoiit-donation-section" className="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_text_7">
-                  <p><strong>CÁCH THỨC HỖ TRỢ HÀNG THÁNG:</strong></p>
-                  <p><strong>Bước 1:</strong>&nbsp;Điền thông tin vào khung bên dưới để nhận được email chứa&nbsp;<em><strong>mã hỗ trợ cá nhân</strong></em>&nbsp;(<em>được gửi trong vòng 24 giờ</em>)</p>
-                  <p><strong>Bước 2:&nbsp;</strong>Sau khi nhận được mã, bạn vui lòng&nbsp;<em><strong>chuyển khoản theo cú pháp</strong></em><b>&nbsp;</b><span style={{ fontWeight: 400 }}>ITnuoiIT&nbsp;Mã hỗ trợ&nbsp;(</span><i><span style={{ fontWeight: 400 }}>Ví dụ: ITnuoiIT DNTT001)&nbsp;</span></i><span style={{ fontWeight: 400 }}>đến tài khoản ngân hàng của PN Việt Nam:</span></p>
-                  <ul>
-                    <li>Ngân hàng TECHCOMBANK</li>
-                    <li>Tên tài khoản: PASSERELLES NUMERIQUES(PN)</li>
-                    <li>Số tài khoản:&nbsp;<strong>19134608156019</strong></li>
-                  </ul>
-                </div> {/* .et_pb_text */}
-                <div className="et_pb_button_module_wrapper et_pb_module et_pb_button_alignment_center">
-                  <a className="et_pb_button  et_pb_button_3 et_pb_module et_pb_bg_layout_light" href="https://www.passerellesnumeriques.org/en/itraiseit-transaction-update/" target="_blank">Xem cập nhật Khoản hỗ trợ Hàng tháng tại đây</a>
+
+                </ul>
+                <div className="show" onClick={(e) => onFocus(e)}>
+                  &#171; Ẩn{' '}
                 </div>
-                <div className="et_pb_code et_pb_module  et_pb_code_0">
-                  <iframe width="100%" height={500} style={{ border: 'none' }} className="pnv-donator-from" src="https://client.pnv-donator.online/?target=company" title="Donator Form" />
-                </div> {/* .et_pb_code */}
-              </div> {/* .et_pb_column */}
-            </div> {/* .et_pb_row */}
+              </div>
+            )}
+
           </div>
 
+        </div>
 
 
 
 
+        <div class="modal fade modal-form"
+          id="ITRaiseITModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="ITRaiseITModalLabel"
+          aria-hidden="true">
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="ITRaiseITModalLabel">
+                  Please provide your information here to get the donation code
+                </h5>
+                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+
+              <div className="modal-body">
+                <div className="form-row">
+                  <div className=" col-sm-4">
+
+                    <p>YOU CAN SUPPORT DIREACTLY AT<br />
+
+                      <br />
+                      TECHCOMBANK<br />
+                      Account’s name: PASSERELLES NUMERIQUES(PN)<br />
+                      Account’s number: 19134608156019<br />
+                      Swift code: VTCBVNVX</p>
+                  </div>
+
+                  <div className="col-sm-8">
+                    <div className="form-group">
+                      <label htmlFor="name">Your Full Name</label>
+                      <input type="text" className="form-control" id="name" required aria-describedby="name" placeholder="Enter name" />
+
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="email">Your Email Address</label>
+                      <input type="email" className="form-control" id="email" required aria-describedby="emailHelp" placeholder="Enter email" />
+                      <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="password">Password</label>
+                      <input type="password" className="form-control" id="password" required placeholder="Password" />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="phone">Phone</label>
+                      <input type="text" className="form-control" id="phone" required placeholder="Phone" />
+                    </div>
+                    <div className="form-group" id="select" required>
+                      <label htmlFor="selectType">Donation Type</label>
+                      <select className="form-control" id="select">
+                        <option >Monthly</option>
+                        <option>Once time</option>
+
+                      </select>
 
 
+                    </div>
+                    <div className="form-group" id="monthlySelect" required>
+                      <label htmlFor="selectType">Subscription period of your donation</label>
+                      <select className="form-control" id="monthlySelect">Select
+                        <option >3 Month</option>
+                        <option>6 Month</option>
+                        <option>9 Month</option>
+                        <option>12 Month</option>
+
+                      </select>
 
 
+                    </div>
+
+                  </div>
+
+                </div>
 
 
+                <button type="submit" className="btn btn-primary">Submit</button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="modal fade modal-form"
+          id="ITRaiseITDetailModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="ITRaiseITDetailModalLabel"
+          aria-hidden="true">
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="ITRaiseITDetailModalLabel">
+                  PNV VÀ NHỮNG KHOẢN ĐÓNG GÓP TRONG CHƯƠNG TRÌNH #ITNUOIIT VÀ HỖ TRỢ MÙA DỊCH COVID 2021 <br />PNV AND DONATIONS TO #ITRAISESIT AND COVID 2021 RELIEF</h5>
+                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+
+              <div className="modal-body">
+                <div className="form-group col-md-12">
+                  <div  >
+                    <h4>Your donation to the campaign IT raises IT of PNV is recorded. Our students are really grateful for your kindness!</h4>
+                    <iframe src="https://docs.google.com/spreadsheets/d/1Me-YzPvC3c8cnicLro97vLgdBMqb4H9ZDPyyrJ4P3Do/edit?usp=sharing"></iframe>
+                  </div>
+                  <p>_________________________________________________________________</p>
+                  <div >
+
+                    <h4>Your donation to PNV during COVID relief from May to July is recorded. Our students are really grateful for your kindness!</h4>
+
+                    <iframe src="https://docs.google.com/spreadsheets/d/1PGllImiGgaZ3qr0EWehC432WIUdUIAiuyYa46QFlkog/edit?usp=sharing"></iframe>
+
+                  </div>
+
+                </div>
 
 
+                <button type="submit" className="btn btn-primary">Submit</button>
+              </div>
 
-
-
-
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
   );
 }
 
 export default ITRaiseIT;
+
+
+
+
