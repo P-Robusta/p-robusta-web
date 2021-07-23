@@ -36,12 +36,12 @@ const Homepage = () => {
     <div>
       <Navigation />
       <Header />
-      <Messenger />
       <News data={landingPageData.News} />
       <About data={landingPageData.About} />
       <Partners data={landingPageData.Partners} />
       <Donate />
       <Contact data={landingPageData.Contact} />
+      <Messenger />
     </div>
   );
 };
