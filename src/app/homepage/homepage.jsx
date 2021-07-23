@@ -9,8 +9,10 @@ import { Partners } from '../../components/Partners/partners';
 
 import { Donate } from '../../components/Donate/donate';
 import { Contact } from '../../components/Contact/contact';
+import { JoinUs } from '../../components/JoinUs/joinUs';
 
 import Messenger from '../../components/MessengerBuble/messenger';
+import CallAPI from '../../helper/callAPI';
 // fake data
 import appData from '../../data/data.json';
 // convinient module
@@ -23,25 +25,31 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const Homepage = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const [banners, setBanners] = useState([]);
+  // const [feedback, setFeedback] = useState([]);
 
-  /**
-   * This app is using the hard data
-   * We can use data from any APIs by custom it
-   */
   useEffect(() => {
     setLandingPageData(appData);
+    CallAPI('banners').then((res) => {
+      setBanners(res.data.data);
+    });
+
+    // CallAPI('feedback').then((res) => {
+    //   setFeedback(res.data.data);
+    // });
   }, []);
 
   return (
     <div>
       <Navigation />
-      <Header />
-      <Messenger />
+      <Header banners={banners} />
       <News data={landingPageData.News} />
       <About data={landingPageData.About} />
       <Partners data={landingPageData.Partners} />
       <Donate />
+      <JoinUs data={landingPageData.JoinUs} />
       <Contact data={landingPageData.Contact} />
+      <Messenger />
     </div>
   );
 };

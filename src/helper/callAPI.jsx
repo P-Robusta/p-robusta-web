@@ -1,16 +1,16 @@
 import axios from 'axios';
 const CallAPI = async (endpoint, method = 'GET', data = null) => {
   // ----------------Set URL----------------
-  // const api_url = process.env.REACT_APP_API_URL
-  const api_url = 'http://localhost:8000/api/client';
+  const api_url = process.env.REACT_APP_API_URL;
+  // const api_url = 'http://localhost:8000/api/client';
 
   let inforToken = JSON.parse(localStorage.getItem('__client_token_pnv__'));
   let expirationDate = Number(localStorage.getItem('__day_get_token_pnv__'));
   // ----------------Get token function----------------
   const getToken = async () => {
     //set base infor
-    // const getTokenUrl = process.env.REACT_APP_API_URL_GET_TOKEN
-    const getTokenUrl = 'http://localhost:8000/oauth/token';
+    const getTokenUrl = process.env.REACT_APP_API_URL_GET_TOKEN;
+    // const getTokenUrl = 'http://localhost:8000/oauth/token';
 
     let client_oauth = new URLSearchParams();
     client_oauth.append('client_id', process.env.REACT_APP_CLIENT_ID);
