@@ -2,7 +2,6 @@ import AnimatedNumber from 'animated-number-react';
 import React from 'react';
 import PropTypes from 'prop-types';
 // css
-import './number_overview.css';
 import { useState } from 'react';
 
 NumberOverview.propTypes = {
@@ -40,6 +39,11 @@ function NumberOverview(props) {
   }
 
   const formatValue = (value) => Number(value).toFixed(0);
+  const formatValueMoney = (value) =>
+    Number(value).toLocaleString('vi', {
+      style: 'currency',
+      currency: 'VND',
+    });
   return (
     <div className="container page-scroll" id="overview">
       <div className="row">
@@ -71,6 +75,36 @@ function NumberOverview(props) {
           </p>
           <p className="mean-of-number text-center">cựu sinh viên</p>
         </div>
+        <div className="col-md-5 number-overview">
+          <p className="number text-center">
+            {isRun ? (
+              <AnimatedNumber
+                value={numbers ? Number(numbers.average_wage) : 0}
+                formatValue={formatValueMoney}
+              />
+            ) : (
+              0
+            )}
+          </p>
+          <p className="mean-of-number text-center">
+            là mức lương trung bình tháng của các cựu sinh viên (VNĐ)
+          </p>
+        </div>
+        <div className="col-md-3 number-overview">
+          <p className="number text-center">
+            {isRun ? (
+              <AnimatedNumber
+                value={numbers ? numbers.current_students : 0}
+                formatValue={formatValue}
+              />
+            ) : (
+              0
+            )}
+          </p>
+          <p className="mean-of-number text-center">
+            là số sinh viên hiện đang học tại PNV
+          </p>
+        </div>
         <div className="col-md-3 number-overview">
           <p className="number text-center">
             {isRun ? (
@@ -87,6 +121,24 @@ function NumberOverview(props) {
             sinh viên tốt nghiệp có việc làm ổn định
           </p>
         </div>
+
+        <div className="col-md-3 number-overview">
+          <p className="number text-center">
+            {isRun ? (
+              <AnimatedNumber
+                value={numbers ? numbers.percent_alumni_it : 0}
+                formatValue={formatValue}
+              />
+            ) : (
+              0
+            )}
+            %
+          </p>
+          <p className="mean-of-number text-center">
+            cựu sinh viên làm việc trong ngành IT
+          </p>
+        </div>
+
         <div className="col-md-3 number-overview">
           <p className="number text-center">
             {isRun ? (
