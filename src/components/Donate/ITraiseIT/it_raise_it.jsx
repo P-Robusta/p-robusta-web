@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './ITRaiseIT.css';
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
 import Swal from 'sweetalert2';
 import $ from 'jquery';
 import CallAPI from '../../../helper/callAPI';
+import NumberOverview from './number_overview';
 
 const initialState = {
   name: '',
@@ -16,6 +16,15 @@ const initialState = {
 export const ITRaiseIT = (props) => {
   const [focus, setFocus] = useState(false);
   const [openForgot, setOpenForgot] = useState(false);
+
+  const [numbers, setNumbers] = useState({});
+  useEffect(() => {
+    CallAPI('number_overviews')
+      .then((res) => {
+        setNumbers(res.data.data);
+      })
+      .catch((error) => console.error(error));
+  }, []);
 
   const changeOpen = () => {
     setOpenForgot(!openForgot);
@@ -505,6 +514,23 @@ export const ITRaiseIT = (props) => {
             )}
           </div>
         </div>
+      </div>
+
+      <div className="container">
+        <NumberOverview numbers={numbers} />
+      </div>
+      <div className=" container text-center">
+        <iframe
+          width={'100%'}
+          height={512}
+          src="https://www.youtube.com/embed/bKkqeqoGaPY"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+        <i>
+          <p className="title-video">Video: Một ngày của sinh viên PNV.</p>
+        </i>
       </div>
     </div>
   );
