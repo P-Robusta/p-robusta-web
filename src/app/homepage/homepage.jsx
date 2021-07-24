@@ -10,7 +10,7 @@ import { Partners } from '../../components/Partners/partners';
 import { Donate } from '../../components/Donate/donate';
 import { Contact } from '../../components/Contact/contact';
 import { JoinUs } from '../../components/JoinUs/joinUs';
-
+import { Feedback } from '../../components/Feedback/Feedback';
 import Messenger from '../../components/MessengerBuble/messenger';
 import CallAPI from '../../helper/callAPI';
 // fake data
@@ -27,7 +27,7 @@ const Homepage = () => {
   const [landingPageData, setLandingPageData] = useState({});
   const [banners, setBanners] = useState([]);
   const [partners, setPartners] = useState([]);
-  // const [feedback, setFeedback] = useState([]);
+  const [feedback, setFeedback] = useState([]);
 
   useEffect(() => {
     setLandingPageData(appData);
@@ -39,9 +39,9 @@ const Homepage = () => {
       setPartners(res.data.data);
     });
 
-    // CallAPI('feedback').then((res) => {
-    //   setFeedback(res.data.data);
-    // });
+    CallAPI('feedback').then((res) => {
+      setFeedback(res.data.data);
+    });
   }, []);
 
   return (
@@ -53,6 +53,7 @@ const Homepage = () => {
       <Partners data={partners} />
       <Donate />
       <JoinUs data={landingPageData.JoinUs} />
+      <Feedback feedback={feedback} />
       <Contact data={landingPageData.Contact} />
       <Messenger />
     </div>

@@ -3,6 +3,7 @@ import NotFound from './components/NotFound';
 import ITRaiseIT from './app/donate-page/ITRaiseITApp';
 import DonateBYVNPay from './app/donate-page/byVNPay';
 import ReturnVNPAY from './app/donate-page/return-vnpay';
+import ResultDonate from './app/donate-page/ResultDonate';
 const routes = [
   {
     path: '/',
@@ -13,6 +14,11 @@ const routes = [
     path: '/alettertoitengineers',
     exact: true,
     main: () => <ITRaiseIT />,
+  },
+  {
+    path: '/itraiseit-transaction-update',
+    exact: true,
+    main: () => <ResultDonate />,
   },
   {
     path: '/donate-by-vn-pay',
