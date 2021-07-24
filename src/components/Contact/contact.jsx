@@ -56,7 +56,7 @@ export const Contact = (props) => {
   };
   return (
     <div>
-      <div id="contact"  >
+      <div id="contact">
         <div className="container">
           <div className="col-md-8">
             <div className="row">
@@ -221,7 +221,11 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; {new Date().getFullYear()} Passerelles numériques Vietnam
+            {' '}
+            &copy; {new Date().getFullYear()} <b>Nguyễn Ngọc Huy</b> &{' '}
+            <b>Nguyễn Thị Diễm</b> & <b>Lê Thị Hồng Hạnh</b> &{' '}
+            <b>Phạm Anh Tuấn</b> - Student PNV22{' '}
+            <i>Passerelles numériques Vietnam</i>
           </p>
         </div>
       </div>

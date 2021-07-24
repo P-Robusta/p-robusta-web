@@ -23,9 +23,11 @@ export const Partners = (props) => {
                             src={e.image_with_pn}
                             alt="PNV"
                           />
-                          <span className="slideTitle title">
-                            {e.note_for_image}
-                          </span>
+                          {e.note_for_image && (
+                            <span className="slideTitle title">
+                              {e.note_for_image}
+                            </span>
+                          )}
                         </div>
                       </div>
                     );

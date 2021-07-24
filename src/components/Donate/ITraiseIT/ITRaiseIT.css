@@ -1,0 +1,74 @@
+h3 {
+  color: #22bbea;
+}
+h4 {
+  color: #f0aa59;
+}
+b {
+  color: #dd7c0c;
+}
+.ITraiseIT .title {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+.ITraiseIT .donate {
+  padding: 10px;
+  background: #54acbf;
+  color: #fff;
+}
+
+.ITraiseIT .donate .donate-header {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.ITraiseIT .donate .text-light {
+  color: #fff;
+}
+
+.ITraiseIT .donate ul .bank-info {
+  list-style-type: disc !important;
+  list-style-position: inside !important;
+  color: #fff;
+}
+
+.ITraiseIT .btn-custom-view-donate {
+  margin: 10px 0;
+  background: #54acbf;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ITraiseIT .btn-custom-view-donate:hover::after {
+  content: ' >';
+}
+
+.ITraiseIT .header {
+  margin: 10px 0;
+  color: #54acbf;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ITraiseIT .text-helper {
+  margin: 10px 0;
+  color: #54acbf;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.ITraiseIT .text-helper:hover {
+  text-decoration: underline;
+}
+
+.ITraiseIT .red {
+  color: red;
+}

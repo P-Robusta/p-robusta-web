@@ -2,50 +2,96 @@ import TextField from '@material-ui/core/TextField';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
 import './joinUs.css';
-import SendEmail from '../../helper/SendEmail';
+import CallAPI from '../../helper/callAPI';
 import Swal from 'sweetalert2';
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-
+import { useState } from 'react';
+import $ from 'jquery';
 const useStyles = makeStyles({
   applyButton: {
-    textAlign: 'end'
-  }
+    textAlign: 'end',
+  },
+  recruitment_form: {
+    width: '340px',
+  },
 });
 
 export const ModalJoinUs = (props) => {
   const classes = useStyles();
+
+  const [cv, setCV] = useState();
+  const [coverLetter, setCoverLetter] = useState();
+
+  const onChangeCV = (e) => {
+    setCV(e.target.files[0]);
+  };
+
+  const onChangeCoverLetter = (e) => {
+    setCoverLetter(e.target.files[0]);
+  };
+
   const onSubmitHandle = (e) => {
     e.preventDefault();
-    console.log(e.target);
-    Swal.fire({
-      title: 'Nộp đơn ứng tuyển ngay?',
-      icon: 'question',
-      showCancelButton: true,
-      confirmButtonColor: '#22bbea',
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'Gửi',
-      cancelButtonText: 'Hủy',
-    }).then((result) => {
-      if (result.isConfirmed) {
-        SendEmail(e.target, 'contact_email_pnv').then(
-          () => {
-            Swal.fire(
-              'Thành công!',
-              'Bạn đã gửi đơn ứng tuyển của đến cho PNV.',
-              'success'
-            );
-          },
-          () => {
-            Swal.fire(
-              'Thất bại!',
-              'Có lỗi đã xảy ra trong quá trình gửi email.',
-              'error'
-            );
-          }
-        );
-      }
-    });
+
+    if (
+      (cv.type.indexOf('image') ||
+        cv.type.indexOf('pdf') ||
+        cv.type.indexOf('pptx') ||
+        cv.type.indexOf('doc') ||
+        cv.type.indexOf('docx')) &&
+      (coverLetter.type.indexOf('image') ||
+        coverLetter.type.indexOf('pdf') ||
+        coverLetter.type.indexOf('pptx') ||
+        coverLetter.type.indexOf('doc') ||
+        coverLetter.type.indexOf('docx')) &&
+      cv.size < 25000000 &&
+      coverLetter.size < 25000000
+    ) {
+      Swal.fire({
+        title: 'Nộp đơn ứng tuyển ngay?',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: '#22bbea',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Gửi',
+        cancelButtonText: 'Hủy',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          let data = new FormData();
+          data.append('candidate_name', $('#candidate_name').val());
+          data.append('candidate_phone', $('#candidate_phone').val());
+          data.append('candidate_email', $('#candidate_email').val());
+          data.append('candidate_cv', cv);
+          data.append('candidate_cover_letter', coverLetter);
+          CallAPI('send_email_recuitment', 'POST', data)
+            .then(
+              () => {
+                Swal.fire(
+                  'Thành công!',
+                  'Bạn đã gửi đơn ứng tuyển của đến cho PNV.',
+                  'success'
+                );
+              },
+              () => {
+                Swal.fire(
+                  'Thất bại!',
+                  'Có lỗi đã xảy ra trong quá trình gửi email.',
+                  'error'
+                );
+              }
+            )
+            .catch((err) => console.error(err));
+        }
+      });
+    } else {
+      Swal.fire(
+        'Lỗi!',
+        'File phải là một trong các định dạng pptx, doc, docx, pdf, image và kích thước file ≤ 25MB.',
+        'error'
+      );
+    }
+    $('#btn-close-recuitment-form').click();
   };
   return (
     <div className={classes.applyButton}>
@@ -69,6 +115,7 @@ export const ModalJoinUs = (props) => {
           <div className="modal-content">
             <div className="modal-header">
               <button
+                id="btn-close-recuitment-form"
                 type="button"
                 className="close"
                 data-dismiss="modal"
@@ -92,16 +139,19 @@ export const ModalJoinUs = (props) => {
                     type="text"
                     label="Họ và tên"
                     required
+                    className={classes.recruitment_form}
                   />
                 </div>
 
                 <div className="form-group">
                   <TextField
-                    type="number"
+                    type="tel"
                     id="candidate_phone"
                     name="candidate_phone"
                     label="Số điện thoại"
+                    pattern="[0-9]{10}"
                     required
+                    className={classes.recruitment_form}
                   />
                 </div>
 
@@ -112,6 +162,7 @@ export const ModalJoinUs = (props) => {
                     name="candidate_email"
                     label="Email"
                     required
+                    className={classes.recruitment_form}
                   />
                 </div>
 
@@ -129,6 +180,7 @@ export const ModalJoinUs = (props) => {
                         </InputAdornment>
                       ),
                     }}
+                    onChange={onChangeCV}
                   />
                 </div>
 
@@ -145,6 +197,8 @@ export const ModalJoinUs = (props) => {
                         </InputAdornment>
                       ),
                     }}
+                    required
+                    onChange={onChangeCoverLetter}
                   />
                 </div>
                 <div className="form-group">
