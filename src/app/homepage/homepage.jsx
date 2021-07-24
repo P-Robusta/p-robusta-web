@@ -17,6 +17,8 @@ import CallAPI from '../../helper/callAPI';
 import appData from '../../data/data.json';
 // convinient module
 import SmoothScroll from 'smooth-scroll';
+import { Feedback } from '../../components/Feedback/Feedback';
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -48,6 +50,7 @@ const Homepage = () => {
       <Partners data={landingPageData.Partners} />
       <Donate />
       <JoinUs data={landingPageData.JoinUs} />
+      <Feedback />
       <Contact data={landingPageData.Contact} />
       <Messenger />
     </div>
