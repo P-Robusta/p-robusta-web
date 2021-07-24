@@ -9,8 +9,8 @@ const useStyles = makeStyles({
     borderRadius: '6px',
   },
   fbPage: {
-    backgroundColor: 'red'
-  }
+    backgroundColor: 'red',
+  },
 });
 
 const About = (props) => {
@@ -77,7 +77,6 @@ const About = (props) => {
                 data-hide-cover="true"
                 data-show-facepile="true"
                 style={{ maxWidth: '100%' }}
-                data-width={500}
                 data-height={300}
               >
                 <blockquote
@@ -142,4 +141,4 @@ const About = (props) => {
   );
 };
 
-export { About }
+export { About };
